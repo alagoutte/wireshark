@@ -1484,7 +1484,7 @@ static void handle_T_option(char *z){
 }
 
 /* The main program.  Parse the command line and do it... */
-int main(int argc, char **argv)
+int main(int argc _U_, char **argv)
 {
   static int version = 0;
   static int rpflag = 0;

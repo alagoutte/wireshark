@@ -575,11 +575,13 @@ struct acttab {
 #define acttab_yylookahead(X,N)  ((X)->aAction[N].lookahead)
 
 /* Free all memory associated with the given acttab */
+#if 0
 PRIVATE void acttab_free(acttab *p){
   free( p->aAction );
   free( p->aLookahead );
   free( p );
 }
+#endif
 
 /* Allocate a new acttab structure */
 PRIVATE acttab *acttab_alloc(void){

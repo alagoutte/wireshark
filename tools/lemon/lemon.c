@@ -163,12 +163,12 @@ static struct action *Action_new(void);
 static struct action *Action_sort(struct action *);
 
 /********** From the file "build.h" ************************************/
-void FindRulePrecedences();
-void FindFirstSets();
-void FindStates();
-void FindLinks();
-void FindFollowSets();
-void FindActions();
+void FindRulePrecedences(struct lemon *);
+void FindFirstSets(struct lemon *);
+void FindStates(struct lemon *);
+void FindLinks(struct lemon *);
+void FindFollowSets(struct lemon *);
+void FindActions(struct lemon *);
 
 /********* From the file "configlist.h" *********************************/
 void Configlist_init(void);
@@ -395,8 +395,8 @@ struct lemon {
   char *argv0;             /* Name of the program */
 };
 
+void memory_error(void);
 #define MemoryCheck(X) if((X)==0){ \
-  extern void memory_error(); \
   memory_error(); \
 }
 
@@ -438,7 +438,7 @@ struct state *State_new(void);
 void State_init(void);
 int State_insert(struct state *, struct config *);
 struct state *State_find(struct config *);
-struct state **State_arrayof(/*  */);
+struct state **State_arrayof(void);
 
 /* Routines used for efficiency in Configlist_add */
 
@@ -1231,7 +1231,7 @@ static struct config *basis = 0;         /* Top of list of basis configs */
 static struct config **basisend = 0;     /* End of list of basis configs */
 
 /* Return a pointer to a new configuration */
-PRIVATE struct config *newconfig(){
+PRIVATE struct config *newconfig(void){
   struct config *newcfg;
   if( freelist==0 ){
     int i;
@@ -1444,7 +1444,7 @@ void ErrorMsg(const char *filename, int lineno, const char *format, ...){
 /* Report an out-of-memory condition and abort.  This function
 ** is used mostly by the "MemoryCheck" macro in struct.h
 */
-void memory_error(){
+void memory_error(void){
   fprintf(stderr,"Out of memory.  Aborting...\n");
   exit(1);
 }
@@ -4333,7 +4333,6 @@ char *SetNew(){
   char *s;
   s = (char*)calloc( size, 1);
   if( s==0 ){
-    extern void memory_error();
     memory_error();
   }
   return s;
@@ -4893,7 +4892,7 @@ struct state *State_find(struct config *key)
 /* Return an array of pointers to all data in the table.
 ** The array is obtained from malloc.  Return NULL if memory allocation
 ** problems, or if the array is empty. */
-struct state **State_arrayof()
+struct state **State_arrayof(void)
 {
   struct state **array;
   int i,a_size;

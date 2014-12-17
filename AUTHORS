@@ -24,10 +24,6 @@ Mike Hall               <mike[AT]hallzone.net> {
 	Follow TCP Stream
 }
 
-Bobo Rajec              <bobo[AT]bsp-consulting.sk> {
-	DNS protocol support
-}
-
 Laurent Deniel          <laurent.deniel[AT]free.fr> {
 	Name resolution
 	Ethernet/Manufacturer files support

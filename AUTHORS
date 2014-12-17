@@ -20,14 +20,6 @@ Gilbert Ramirez         <gram[AT]alumni.rice.edu> {
 	Miscellaneous enhancements and fixes
 }
 
-Hannes R. Boehm         <hannes[AT]boehm.org> {
-	http://hannes.boehm.org/
-
-	OSPFv2
-	RIPv1, RIPv2
-	CDP (Cisco Discovery Protocol Version 1)
-}
-
 Mike Hall               <mike[AT]hallzone.net> {
 	Follow TCP Stream
 }

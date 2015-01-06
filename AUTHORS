@@ -110,11 +110,6 @@ Ashok Narayanan         <ashokn[AT]cisco.com> {
 	IEEE 802.1ad and 802.1ah
 }
 
-Jason Lango             <jal[AT]netapp.com> {
-	RTSP, SDP
-	RTCP fixes
-}
-
 Johan Feyaerts          <Johan.Feyaerts[AT]siemens.com> {
 	RADIUS
 }

@@ -141,27 +141,6 @@ Jeff Foster             <jfoste[AT]woodward.com> {
 	    to do it all)
 }
 
-Nathan Neulinger        <nneul[AT]umr.edu> {
-	Yahoo Messenger YHOO protocol, and Yahoo Pager (YPNS?) protocol
-	    support
-	NTP (Network Time Protocol) support
-	RX protocol support
-	Andrew File System protocol support
-	802.1q VLAN support
-	Misc. RPC program dissectors
-	TNS/Oracle dissector
-	Tacacs+/XTacacs dissector
-	IRC dissector
-	AppleTalk NBP dissector
-	AppleTalk RTMP response dissector
-	Automake and autoconf updates to handle the current CVS versions
-	    of automake (which will probably eventually become the next
-	    releases of automake and autoconf)
-	Additional cipher suite names for SSL
-	SEBEK - Kernel read() data capture protocol support
-	Linux IPVS Synchronization Daemon support
-}
-
 Tomislav Vujec          <tvujec[AT]carnet.hr> {
 	Additional NTP support
 }

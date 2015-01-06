@@ -101,10 +101,6 @@ Richard Sharpe          <sharpe[AT]ns.aus.com> {
 	MS RPC WKSSVC dissector
 }
 
-Brad Robel-Forrest      <bradr[AT]watchguard.com> {
-	ISAKMP, GRE, PPTP
-}
-
 Ashok Narayanan         <ashokn[AT]cisco.com> {
 	RSVP
 	Match Selected functionality

@@ -101,11 +101,6 @@ Richard Sharpe          <sharpe[AT]ns.aus.com> {
 	MS RPC WKSSVC dissector
 }
 
-John McDermott          <jjm[AT]jkintl.com> {
-	Packet coloring support
-	Pseudo-real-time capture
-}
-
 Jeff Jahr               <jjahr[AT]shastanets.com> {
 	PPP over Ethernet (PPPoe)
 }

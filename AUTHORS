@@ -141,12 +141,6 @@ Jeff Foster             <jfoste[AT]woodward.com> {
 	    to do it all)
 }
 
-Christophe Tronche      <ch.tronche[AT]computer.org> {
-	http://tronche.com/
-	BPDU (spanning tree protocol) support
-	X11 requests support
-}
-
 Nathan Neulinger        <nneul[AT]umr.edu> {
 	Yahoo Messenger YHOO protocol, and Yahoo Pager (YPNS?) protocol
 	    support

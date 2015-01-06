@@ -54,10 +54,6 @@ Guy Harris              <guy[AT]alum.mit.edu> {
 	Miscellaneous enhancements and fixes
 }
 
-Simon Wilkinson         <sxw[AT]dcs.ed.ac.uk> {
-	AppleTalk support
-}
-
 Jörg Mayer              <jmayer[AT]loplof.de> {
 	Banyan Vines support
 	NTP fixes

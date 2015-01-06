@@ -81,12 +81,6 @@ Jörg Mayer              <jmayer[AT]loplof.de> {
 	Some 3com management protocol
 }
 
-Didier Jorand           <Didier.Jorand[AT]alcatel.fr> {
-	SNMP support
-	TCP SEQ/ACK analysis bugfix for sequence number wrapping.
-	FIX 4.0 to 4.4 fields
-}
-
 Jun-ichiro itojun Hagino <itojun[AT]itojun.org> {
 	http://www.itojun.org/
 

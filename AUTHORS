@@ -101,10 +101,6 @@ Richard Sharpe          <sharpe[AT]ns.aus.com> {
 	MS RPC WKSSVC dissector
 }
 
-Jeff Jahr               <jjahr[AT]shastanets.com> {
-	PPP over Ethernet (PPPoe)
-}
-
 Brad Robel-Forrest      <bradr[AT]watchguard.com> {
 	ISAKMP, GRE, PPTP
 }

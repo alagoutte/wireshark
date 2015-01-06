@@ -81,10 +81,6 @@ Jörg Mayer              <jmayer[AT]loplof.de> {
 	Some 3com management protocol
 }
 
-Martin Maciaszek        <fastjack[AT]i-s-o.net> {
-	RPM .spec file
-}
-
 Didier Jorand           <Didier.Jorand[AT]alcatel.fr> {
 	SNMP support
 	TCP SEQ/ACK analysis bugfix for sequence number wrapping.

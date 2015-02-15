@@ -15,6 +15,6 @@ before_install:
   - sudo apt-get install cmake libgtk-3-0 libglib2.0-0 libgdk-pixbuf2.0-0 libcairo2 libqt4-dev
   - $CC --version
 before_script:
-  if [ ${BUILD_CMAKE} == "yes" ]; then mkdir build && cd build && cmake ..; else ./autogen.sh && ./configure --with-gtk2; fi
+  if [ ${BUILD_CMAKE} == "yes" ]; then mkdir build && cd build && cmake -D ENABLE_ASAN:BOOL=ON .. ; else ./autogen.sh && ./configure --with-gtk2 --enable-asan; fi
 script:
   - make

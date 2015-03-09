@@ -156,15 +156,6 @@ Uwe Girlich             <Uwe.Girlich[AT]philosys.de> {
 	INTERLINK dissector
 }
 
-Bert Driehuis           <driehuis[AT]playbeing.org> {
-	I4B (ISDN for BSD) wiretap module
-	V.120
-}
-
-Stuart Stanley          <stuarts[AT]mxmail.net> {
-	ISIS on CLNP support
-}
-
 John Thomes             <john[AT]ensemblecom.com> {
 	L2TP support
 }

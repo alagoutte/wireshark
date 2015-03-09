@@ -156,10 +156,6 @@ Uwe Girlich             <Uwe.Girlich[AT]philosys.de> {
 	INTERLINK dissector
 }
 
-Dave Chapeskie          <dchapes[AT]ddm.on.ca> {
-	updates to ISAKMP support
-}
-
 James Coe               <jammer[AT]cin.net> {
 	SRVLOC (Service Location Protocol) support
 	NCP over IP support

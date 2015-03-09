@@ -156,15 +156,6 @@ Uwe Girlich             <Uwe.Girlich[AT]philosys.de> {
 	INTERLINK dissector
 }
 
-Jerry Talkington        <jtalkington[AT]users.sourceforge.net> {
-	tvb_uncompress()/HTTP Content-Encoding decompression
-	HTTP chunked encoding dissection
-	updates to HTTP support
-	Filter selection/editing GUI improvements
-	WCCP 1.0 support
-	Right-mouse-button menu support
-}
-
 Dave Chapeskie          <dchapes[AT]ddm.on.ca> {
 	updates to ISAKMP support
 }

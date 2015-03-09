@@ -156,10 +156,6 @@ Uwe Girlich             <Uwe.Girlich[AT]philosys.de> {
 	INTERLINK dissector
 }
 
-Thomas Parvais          <thomas.parvais[AT]advalvas.be> {
-	updates to L2TP support
-}
-
 Gerrit Gehnen           <G.Gehnen[AT]atrie.de> {
 	support for "Inactive Subset" of ISO CLNP
 	Decoding of OSI COTP TSAPs as text when they're plain text

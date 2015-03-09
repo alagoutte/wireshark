@@ -156,12 +156,6 @@ Uwe Girlich             <Uwe.Girlich[AT]philosys.de> {
 	INTERLINK dissector
 }
 
-Greg Hankins            <gregh[AT]twoguys.org> {
-	http://www.twoguys.org/~gregh
-
-	updates to BGP (Border Gateway Protocol) support
-}
-
 Jerry Talkington        <jtalkington[AT]users.sourceforge.net> {
 	tvb_uncompress()/HTTP Content-Encoding decompression
 	HTTP chunked encoding dissection

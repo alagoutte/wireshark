@@ -156,11 +156,6 @@ Uwe Girlich             <Uwe.Girlich[AT]philosys.de> {
 	INTERLINK dissector
 }
 
-James Coe               <jammer[AT]cin.net> {
-	SRVLOC (Service Location Protocol) support
-	NCP over IP support
-}
-
 Bert Driehuis           <driehuis[AT]playbeing.org> {
 	I4B (ISDN for BSD) wiretap module
 	V.120

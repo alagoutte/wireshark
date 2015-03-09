@@ -156,9 +156,6 @@ Uwe Girlich             <Uwe.Girlich[AT]philosys.de> {
 	INTERLINK dissector
 }
 
-Craig Newell            <craign[AT]cheque.uq.edu.au> {
-	TFTP options (RFC 2347) support
-}
 
 Ed Meaney               <emeaney[AT]cisco.com> {
 	Win32 support

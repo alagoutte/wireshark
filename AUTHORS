@@ -156,10 +156,6 @@ Uwe Girlich             <Uwe.Girlich[AT]philosys.de> {
 	INTERLINK dissector
 }
 
-John Thomes             <john[AT]ensemblecom.com> {
-	L2TP support
-}
-
 Laurent Cazalet         <laurent.cazalet[AT]mailclub.net> {
 	updates to L2TP support
 }

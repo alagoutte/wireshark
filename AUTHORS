@@ -207,11 +207,6 @@ Michael Tüxen           <tuexen[AT]fh-muenster.de> {
 	Fix SCTP port number for M2PA
 }
 
-Wes Hardaker            <hardaker[AT]users.sourceforge.net> {
-	Kerberos 5 support
-	occasional ucd-snmp/net-snmp help.
-}
-
 Robert Tsai             <rtsai[AT]netapp.com> {
 	Rsh support
 	Support for embedded newlines in SDP fields

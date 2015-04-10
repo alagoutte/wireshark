@@ -190,11 +190,6 @@ Yaniv Kaul              <mykaul[AT]gmail.com> {
 	SPICE dissector
 }
 
-Mark Burton             <markb[AT]ordern.com> {
-	Assorted SMB fixes and enhancements
-	iSCSI support
-}
-
 Stefan Raab             <sraab[AT]cisco.com> {
 	Mobile IP
 }

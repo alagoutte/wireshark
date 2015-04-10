@@ -207,13 +207,6 @@ Michael Tüxen           <tuexen[AT]fh-muenster.de> {
 	Fix SCTP port number for M2PA
 }
 
-
-Peter Kjellerstedt      <pkj[AT]axis.com> {
-	SRVLOC fixes
-	ICQ enhancements
-	autogen.sh fixes
-}
-
 Phil Techau             <phil_t[AT]altavista.net> {
 	Added "col_append_str()"
 	Signed integer support in display filters and in the protocol tree

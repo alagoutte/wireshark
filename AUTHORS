@@ -156,11 +156,6 @@ Uwe Girlich             <Uwe.Girlich[AT]philosys.de> {
 	INTERLINK dissector
 }
 
-Dietmar Petras          <DPetras[AT]ELSA.de> {
-	Time protocol support
-	Fix to handling of SNMPv2 TRAP PDUs
-}
-
 Fred Reimer             <fwr[AT]ga.prestige.net> {
 	TCP segment length in TCP packet summary
 }

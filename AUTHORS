@@ -190,10 +190,6 @@ Yaniv Kaul              <mykaul[AT]gmail.com> {
 	SPICE dissector
 }
 
-Mark Clayton            <clayton[AT]shore.net> {
-	Support for capturing on ATM interfaces on Linux
-}
-
 Michael Rozhavsky       <mike[AT]tochna.technion.ac.il> {
 	OSPF enhancements
 	CRLDP support

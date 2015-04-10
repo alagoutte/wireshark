@@ -190,21 +190,6 @@ Yaniv Kaul              <mykaul[AT]gmail.com> {
 	SPICE dissector
 }
 
-Paul Ionescu            <paul[AT]acorp.ro> {
-	IPX-over-GRE support
-	EIGRP support
-	Cisco IGRP support
-	X.25-over-TCP support
-	DEC LANBridge Spanning Tree Protocol support
-	X.25-over-LLC support
-	IP Prefix field support in CDP
-	Frame Relay support
-	Frame-Relay-over-GRE support
-	IPX SAP over IPX EIGRP support
-	Fleshed out TACACS/XTACACS/TACACS+ dissector
-	DLSw support
-}
-
 Mark Burton             <markb[AT]ordern.com> {
 	Assorted SMB fixes and enhancements
 	iSCSI support

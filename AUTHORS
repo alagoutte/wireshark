@@ -207,10 +207,6 @@ Michael Tüxen           <tuexen[AT]fh-muenster.de> {
 	Fix SCTP port number for M2PA
 }
 
-Craig Metz              <cmetz[AT]inner.net> {
-	OSPF type 7 LSA dissection
-}
-
 Per Flock               <per.flock[AT]axis.com> {
 	A6 and DNAME resource record support
 	RFC 2673 bitstring label support

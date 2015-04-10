@@ -163,10 +163,6 @@ Florian Lohoff          <flo[AT]rfc822.org> {
 	Redback Lawful Intercept dissection
 }
 
-Paul Welchinski         <paul.welchinski[AT]telusplanet.net> {
-	Fixes to Win32 packet capture code
-}
-
 Doug Nazar              <nazard[AT]dragoninc.on.ca> {
 	LDAP support
 }

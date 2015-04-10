@@ -207,13 +207,6 @@ Michael Tüxen           <tuexen[AT]fh-muenster.de> {
 	Fix SCTP port number for M2PA
 }
 
-Phil Techau             <phil_t[AT]altavista.net> {
-	Added "col_append_str()"
-	Signed integer support in display filters and in the protocol tree
-	BOOTP fixes
-	Additional NTP reference clock identifiers
-}
-
 Wes Hardaker            <hardaker[AT]users.sourceforge.net> {
 	Kerberos 5 support
 	occasional ucd-snmp/net-snmp help.

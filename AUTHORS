@@ -207,13 +207,6 @@ Michael Tüxen           <tuexen[AT]fh-muenster.de> {
 	Fix SCTP port number for M2PA
 }
 
-David Frascone          <dave[AT]frascone.com> {
-	DIAMETER support
-	Bug fixes and enhancements to Mobile IP
-	Support for Mobile IP's use of ICMP Router Advertisements
-	Removal of unused variables and functions
-	LWAPP support
-}
 
 Peter Kjellerstedt      <pkj[AT]axis.com> {
 	SRVLOC fixes

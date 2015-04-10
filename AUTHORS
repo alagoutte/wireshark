@@ -190,10 +190,6 @@ Yaniv Kaul              <mykaul[AT]gmail.com> {
 	SPICE dissector
 }
 
-Stefan Raab             <sraab[AT]cisco.com> {
-	Mobile IP
-}
-
 Mark Clayton            <clayton[AT]shore.net> {
 	Support for capturing on ATM interfaces on Linux
 }

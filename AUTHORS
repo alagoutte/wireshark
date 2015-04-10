@@ -207,11 +207,6 @@ Michael Tüxen           <tuexen[AT]fh-muenster.de> {
 	Fix SCTP port number for M2PA
 }
 
-Per Flock               <per.flock[AT]axis.com> {
-	A6 and DNAME resource record support
-	RFC 2673 bitstring label support
-}
-
 Jack Keane              <jkeane[AT]OpenReach.com> {
 	ISAKMP fixes to handle malformed packets
 }

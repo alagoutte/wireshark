@@ -207,12 +207,6 @@ Michael Tüxen           <tuexen[AT]fh-muenster.de> {
 	Fix SCTP port number for M2PA
 }
 
-Robert Tsai             <rtsai[AT]netapp.com> {
-	Rsh support
-	Support for embedded newlines in SDP fields
-	Support for leading LWS in RTSP headers
-}
-
 Craig Metz              <cmetz[AT]inner.net> {
 	OSPF type 7 LSA dissection
 }

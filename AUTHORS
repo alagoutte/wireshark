@@ -207,10 +207,6 @@ Michael Tüxen           <tuexen[AT]fh-muenster.de> {
 	Fix SCTP port number for M2PA
 }
 
-Jose Pedro Oliveira     <jpo[AT]di.uminho.pt> {
-	DHCP enhancements
-}
-
 David Frascone          <dave[AT]frascone.com> {
 	DIAMETER support
 	Bug fixes and enhancements to Mobile IP

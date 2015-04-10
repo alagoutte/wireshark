@@ -190,11 +190,6 @@ Yaniv Kaul              <mykaul[AT]gmail.com> {
 	SPICE dissector
 }
 
-Michael Rozhavsky       <mike[AT]tochna.technion.ac.il> {
-	OSPF enhancements
-	CRLDP support
-}
-
 Dug Song                <dugsong[AT]monkey.org> {
 	RPCSEC_GSS credential/verifier dissection for ONC RPC
 }

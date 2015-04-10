@@ -190,10 +190,6 @@ Yaniv Kaul              <mykaul[AT]gmail.com> {
 	SPICE dissector
 }
 
-Dug Song                <dugsong[AT]monkey.org> {
-	RPCSEC_GSS credential/verifier dissection for ONC RPC
-}
-
 Michael Tüxen           <tuexen[AT]fh-muenster.de> {
 	SCTP support
 	M3UA support

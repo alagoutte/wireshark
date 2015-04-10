@@ -156,11 +156,6 @@ Uwe Girlich             <Uwe.Girlich[AT]philosys.de> {
 	INTERLINK dissector
 }
 
-
-Ed Meaney               <emeaney[AT]cisco.com> {
-	Win32 support
-}
-
 Dietmar Petras          <DPetras[AT]ELSA.de> {
 	Time protocol support
 	Fix to handling of SNMPv2 TRAP PDUs

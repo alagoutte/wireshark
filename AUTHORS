@@ -207,10 +207,6 @@ Michael Tüxen           <tuexen[AT]fh-muenster.de> {
 	Fix SCTP port number for M2PA
 }
 
-Bruce Korb              <bkorb[AT]sco.com> {
-	Improved autogen.sh script
-}
-
 Jose Pedro Oliveira     <jpo[AT]di.uminho.pt> {
 	DHCP enhancements
 }

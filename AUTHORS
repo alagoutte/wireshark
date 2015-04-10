@@ -176,11 +176,6 @@ Graham Bloice           <graham.bloice[AT]trihedral.com> {
 	Support for DNP
 }
 
-Ralf Schneider          <ralf.schneider[AT]alcatel.se> {
-	Enhancements to OSI CLNP, CLTP, and ISIS support
-	OSI ESIS support
-}
-
 Yaniv Kaul              <mykaul[AT]gmail.com> {
 	Enhancements to ISAKMP
 	CPHA support

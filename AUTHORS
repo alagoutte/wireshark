@@ -156,10 +156,6 @@ Uwe Girlich             <Uwe.Girlich[AT]philosys.de> {
 	INTERLINK dissector
 }
 
-Fred Reimer             <fwr[AT]ga.prestige.net> {
-	TCP segment length in TCP packet summary
-}
-
 Florian Lohoff          <flo[AT]rfc822.org> {
 	Various enhancements to RADIUS support
 	Fixes to L2TP result and error code dissection

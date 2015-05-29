@@ -212,10 +212,6 @@ Ed Warnicke             <hagbard[AT]physics.rutgers.edu> {
 	PCLI ( Packet Cable Lawful Intercept ) dissector
 }
 
-Johan Jorgensen         <johan.jorgensen[AT]axis.com> {
-	IEEE 802.11 support
-}
-
 Frank Singleton         <frank.singleton[AT]ericsson.com> {
 	Short integer CDR support for GIOP
 	Support for protocols running atop GIOP

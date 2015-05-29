@@ -207,14 +207,6 @@ Michael Tüxen           <tuexen[AT]fh-muenster.de> {
 	Fix SCTP port number for M2PA
 }
 
-Brian Wellington        <bwelling[AT]xbill.org> {
-	Support for DNS CERT, KX, TSIG, and TKEY records
-	Support for NOTIFY and UPDATE DNS opcodes
-	Support for YXDOMAIN, YXRRSSET, NXRRRSET, NOTAUTH, NOTZONE, and
-	   TSIG/TKEY error DNS reply codes
-	Partial support for DNS-over-TCP
-}
-
 Santeri Paavolainen     <santtu[AT]ssh.com> {
 	"Capture->Stop" menu bar item
 	Improved capture statistics box

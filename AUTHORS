@@ -207,12 +207,6 @@ Michael Tüxen           <tuexen[AT]fh-muenster.de> {
 	Fix SCTP port number for M2PA
 }
 
-Craig Rodrigues         <rodrigc[AT]attbi.com> {
-	GIOP 1.2 support and other GIOP enhancements
-	Handle current versions of RPM, which compress man pages
-	Real-time CORBA priority value support
-}
-
 Ed Warnicke             <hagbard[AT]physics.rutgers.edu> {
 	MGCP dissector
 	PCLI ( Packet Cable Lawful Intercept ) dissector

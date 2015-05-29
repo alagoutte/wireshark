@@ -207,10 +207,6 @@ Michael Tüxen           <tuexen[AT]fh-muenster.de> {
 	Fix SCTP port number for M2PA
 }
 
-Neil Hunter             <neil.hunter[AT]energis-squared.com> {
-	WAP support
-}
-
 Ralf Holzer             <ralf[AT]well.com> {
 	AIM/OSCAR support
 }

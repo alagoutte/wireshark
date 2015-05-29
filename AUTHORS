@@ -207,10 +207,6 @@ Michael Tüxen           <tuexen[AT]fh-muenster.de> {
 	Fix SCTP port number for M2PA
 }
 
-Jack Keane              <jkeane[AT]OpenReach.com> {
-	ISAKMP fixes to handle malformed packets
-}
-
 Brian Wellington        <bwelling[AT]xbill.org> {
 	Support for DNS CERT, KX, TSIG, and TKEY records
 	Support for NOTIFY and UPDATE DNS opcodes

@@ -207,10 +207,6 @@ Michael Tüxen           <tuexen[AT]fh-muenster.de> {
 	Fix SCTP port number for M2PA
 }
 
-Ulrich Kiermayr         <uk[AT]ap.univie.ac.at> {
-	ECN Extension support
-}
-
 Neil Hunter             <neil.hunter[AT]energis-squared.com> {
 	WAP support
 }

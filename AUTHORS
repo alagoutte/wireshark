@@ -212,12 +212,6 @@ Ed Warnicke             <hagbard[AT]physics.rutgers.edu> {
 	PCLI ( Packet Cable Lawful Intercept ) dissector
 }
 
-Frank Singleton         <frank.singleton[AT]ericsson.com> {
-	Short integer CDR support for GIOP
-	Support for protocols running atop GIOP
-	GIOP CosNaming support
-}
-
 Kevin Shi               <techishi[AT]ms22.hinet.net> {
 	GVRP support
 }

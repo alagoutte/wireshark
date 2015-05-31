@@ -264,16 +264,6 @@ Ronnie Sahlberg         <ronnie_sahlberg[AT]ozemail.com.au> {
 	PacketCable protocol
 }
 
-Albert Chin             <china[AT]thewrittenword.com> {
-	Fixes to Lemon to get it to compile on platforms (such as some
-	    versions of Tru64 UNIX) that define TRUE and FALSE
-	Fixes for various non-GCC compiler warnings
-	Fix to TCP graph code to eliminate a GCCism
-	Simplify some autoconf code
-	Assorted cleanups
-	Autoconf/automake cleanups
-}
-
 Charles Levert          <charles[AT]comm.polymtl.ca> {
 	CUPS browsing protocol support
 }

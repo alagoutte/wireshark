@@ -264,10 +264,6 @@ Ronnie Sahlberg         <ronnie_sahlberg[AT]ozemail.com.au> {
 	PacketCable protocol
 }
 
-Peter Lei               <peterlei[AT]cisco.com> {
-	RFC 3024 reverse tunneling support for the Mobile IP dissector
-}
-
 Thomas Gimpel           <thomas.gimpel[AT]ferrari.de> {
 	Fixes to the Q.931 dissector
 }

@@ -264,10 +264,6 @@ Ronnie Sahlberg         <ronnie_sahlberg[AT]ozemail.com.au> {
 	PacketCable protocol
 }
 
-Eduardo Pérez Ureta     <eperez[AT]dei.inf.uc3m.es> {
-	GUI fixes
-}
-
 Martin Thomas           <martin_a_thomas[AT]yahoo.com> {
 	Support for TPKT being used for its original purpose (TCP port
 	    102, containing OSI transport layer PDUs)

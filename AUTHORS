@@ -212,10 +212,6 @@ Ed Warnicke             <hagbard[AT]physics.rutgers.edu> {
 	PCLI ( Packet Cable Lawful Intercept ) dissector
 }
 
-Kevin Shi               <techishi[AT]ms22.hinet.net> {
-	GVRP support
-}
-
 Mike Frisch             <mfrisch[AT]isurfer.ca> {
 	NFSv4 support
 	HCLNFSD support

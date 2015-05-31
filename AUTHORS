@@ -264,12 +264,6 @@ Ronnie Sahlberg         <ronnie_sahlberg[AT]ozemail.com.au> {
 	PacketCable protocol
 }
 
-Todd Sabin              <tas[AT]webspan.net> {
-	DCE RPC support
-	Cleaned up "get_column_format_matches()"
-	Skeleton NSPI dissector
-}
-
 Eduardo Pérez Ureta     <eperez[AT]dei.inf.uc3m.es> {
 	GUI fixes
 }

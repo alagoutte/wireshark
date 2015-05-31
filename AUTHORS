@@ -264,12 +264,6 @@ Ronnie Sahlberg         <ronnie_sahlberg[AT]ozemail.com.au> {
 	PacketCable protocol
 }
 
-Martin Thomas           <martin_a_thomas[AT]yahoo.com> {
-	Support for TPKT being used for its original purpose (TCP port
-	    102, containing OSI transport layer PDUs)
-	Handle address lengths based on TOA bit in X.25
-}
-
 Hartmut Mueller         <hartmut[AT]wendolene.ping.de> {
 	BACNET support
 }

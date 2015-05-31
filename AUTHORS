@@ -264,10 +264,6 @@ Ronnie Sahlberg         <ronnie_sahlberg[AT]ozemail.com.au> {
 	PacketCable protocol
 }
 
-Inoue                   <inoue[AT]ainet.or.jp> {
-	Preference dialog crash fix
-}
-
 Olivier Biot            <obiot.ethereal[AT]gmail.com> {
 	Various WTP fixes and enhancements
 	Rewrite of much of WSP

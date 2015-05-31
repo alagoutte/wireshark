@@ -212,11 +212,6 @@ Ed Warnicke             <hagbard[AT]physics.rutgers.edu> {
 	PCLI ( Packet Cable Lawful Intercept ) dissector
 }
 
-Martti Kuparinen        <martti.kuparinen[AT]iki.fi> {
-	Mobile IPv6 support
-	HMIPv6 support
-}
-
 David Hampton           <dhampton[AT]mac.com> {
 	Support for HTTP methods added by GENA (the uPnP protocol)
 	Support for the HTTP-based SSDP protocol

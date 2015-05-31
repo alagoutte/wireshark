@@ -264,10 +264,6 @@ Ronnie Sahlberg         <ronnie_sahlberg[AT]ozemail.com.au> {
 	PacketCable protocol
 }
 
-Hartmut Mueller         <hartmut[AT]wendolene.ping.de> {
-	BACNET support
-}
-
 Michal Melerowicz       <Michal.Melerowicz[AT]nokia.com> {
 	GTP support
 	GTPv1 support and GTPv0 improvements

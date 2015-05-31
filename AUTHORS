@@ -264,11 +264,6 @@ Ronnie Sahlberg         <ronnie_sahlberg[AT]ozemail.com.au> {
 	PacketCable protocol
 }
 
-Simharajan Srishylam    <Simharajan.Srishylam[AT]netapp.com> {
-	Assorted WCCP2 enhancements
-	ICAP support
-}
-
 Greg Kilfoyle           <gregk[AT]redback.com> {
 	BOOTP option 82 (Relay Agent Information option) support
 }

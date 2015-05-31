@@ -264,10 +264,6 @@ Ronnie Sahlberg         <ronnie_sahlberg[AT]ozemail.com.au> {
 	PacketCable protocol
 }
 
-Charles Levert          <charles[AT]comm.polymtl.ca> {
-	CUPS browsing protocol support
-}
-
 Todd Sabin              <tas[AT]webspan.net> {
 	DCE RPC support
 	Cleaned up "get_column_format_matches()"

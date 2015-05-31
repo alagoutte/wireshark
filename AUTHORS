@@ -212,12 +212,6 @@ Ed Warnicke             <hagbard[AT]physics.rutgers.edu> {
 	PCLI ( Packet Cable Lawful Intercept ) dissector
 }
 
-Burke Lau               <burke_lau[AT]agilent.com> {
-	PPP FCS checking
-	Cisco HDLC support in PPP dissector
-	MPLS-over-PPP support
-}
-
 Martti Kuparinen        <martti.kuparinen[AT]iki.fi> {
 	Mobile IPv6 support
 	HMIPv6 support

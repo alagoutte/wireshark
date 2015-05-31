@@ -264,11 +264,6 @@ Ronnie Sahlberg         <ronnie_sahlberg[AT]ozemail.com.au> {
 	PacketCable protocol
 }
 
-Michal Melerowicz       <Michal.Melerowicz[AT]nokia.com> {
-	GTP support
-	GTPv1 support and GTPv0 improvements
-}
-
 Hannes Gredler          <hannes[AT]juniper.net> {
 	OSI network layer over PPP support
 	Many IS-IS enhancements

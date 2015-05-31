@@ -264,23 +264,6 @@ Ronnie Sahlberg         <ronnie_sahlberg[AT]ozemail.com.au> {
 	PacketCable protocol
 }
 
-Hannes Gredler          <hannes[AT]juniper.net> {
-	OSI network layer over PPP support
-	Many IS-IS enhancements
-	Juniper Networks vendor ID in RADIUS dissector
-	HELLO message support in RSVP
-	Many BGP enhancements and bug fixes
-	Fix display of OSI system IDs to use a dot rather than a dash
-	    before the PSN byte
-	Decode the sample rate factor in cflowd5 headers
-	Support OSI over CHDLC
-	Show the type value for OSI protocols symbolically in GRE
-	Support MPLS over CHDLC
-	Bi-directional Fault Detection (BFD) support
-	Support for Juniper's DLT_JUNIPER_ATM1, DLT_JUNIPER_ATM2 values
-	Support for Juniper's PPPOE encapsulation
-}
-
 Inoue                   <inoue[AT]ainet.or.jp> {
 	Preference dialog crash fix
 }

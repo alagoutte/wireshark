@@ -212,12 +212,6 @@ Ed Warnicke             <hagbard[AT]physics.rutgers.edu> {
 	PCLI ( Packet Cable Lawful Intercept ) dissector
 }
 
-David Hampton           <dhampton[AT]mac.com> {
-	Support for HTTP methods added by GENA (the uPnP protocol)
-	Support for the HTTP-based SSDP protocol
-	"Decode As" dialog
-}
-
 Kent Engström           <kent[AT]unit.liu.se> {
 	CDP VTP Management Domain item support
 }

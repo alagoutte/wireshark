@@ -212,10 +212,6 @@ Ed Warnicke             <hagbard[AT]physics.rutgers.edu> {
 	PCLI ( Packet Cable Lawful Intercept ) dissector
 }
 
-Kent Engström           <kent[AT]unit.liu.se> {
-	CDP VTP Management Domain item support
-}
-
 Ronnie Sahlberg         <ronnie_sahlberg[AT]ozemail.com.au> {
 	NLM dissector enhancements
 	Mount dissector enhancements

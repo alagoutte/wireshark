@@ -264,10 +264,6 @@ Ronnie Sahlberg         <ronnie_sahlberg[AT]ozemail.com.au> {
 	PacketCable protocol
 }
 
-Greg Kilfoyle           <gregk[AT]redback.com> {
-	BOOTP option 82 (Relay Agent Information option) support
-}
-
 James E. Flemer         <jflemer[AT]acm.jhu.edu> {
 	Hidden Boolean fields set if the IP or ICMP checksums are bad
 }

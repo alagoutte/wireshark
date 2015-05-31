@@ -212,18 +212,6 @@ Ed Warnicke             <hagbard[AT]physics.rutgers.edu> {
 	PCLI ( Packet Cable Lawful Intercept ) dissector
 }
 
-Mike Frisch             <mfrisch[AT]isurfer.ca> {
-	NFSv4 support
-	HCLNFSD support
-	rquota support
-	AUTH_DES support
-	Tvbuffified NFS dissector
-	RPCSEC_GSS fixes
-	PCNFSD updates
-	NFS_ACL support
-	PVFS2 support
-}
-
 Burke Lau               <burke_lau[AT]agilent.com> {
 	PPP FCS checking
 	Cisco HDLC support in PPP dissector

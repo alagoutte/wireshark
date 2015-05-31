@@ -264,10 +264,6 @@ Ronnie Sahlberg         <ronnie_sahlberg[AT]ozemail.com.au> {
 	PacketCable protocol
 }
 
-Thomas Gimpel           <thomas.gimpel[AT]ferrari.de> {
-	Fixes to the Q.931 dissector
-}
-
 Albert Chin             <china[AT]thewrittenword.com> {
 	Fixes to Lemon to get it to compile on platforms (such as some
 	    versions of Tru64 UNIX) that define TRUE and FALSE

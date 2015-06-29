@@ -1,0 +1,26 @@
+From f11a663aa5042c72b0f5c7fcc2f76e322a961025 Mon Sep 17 00:00:00 2001
+From: Alexis La Goutte <alexis.lagoutte@gmail.com>
+Date: Sat, 11 Apr 2015 10:43:07 +0200
+Subject: [PATCH 09/14] lemon : fix implicit conversion shortens 64-bit value
+ into a 32-bit value on Mac OS X
+
+---
+ tools/lemon/lemon.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/tools/lemon/lemon.c b/tools/lemon/lemon.c
+index a197d6c..66c2af5 100644
+--- a/tools/lemon/lemon.c
++++ b/tools/lemon/lemon.c
+@@ -3388,7 +3388,7 @@ PRIVATE char *append_str(const char *zText, int n, int p1, int p2){
+     n = lemonStrlen(zText);
+   }
+   if( (int) (n+sizeof(zInt)*2+used) >= alloced ){
+-    alloced = n + sizeof(zInt)*2 + used + 200;
++    alloced = (int)(n + sizeof(zInt)*2 + used + 200);
+     z = (char *) realloc(z,  alloced);
+   }
+   if( z==0 ) return empty;
+-- 
+1.9.1
+

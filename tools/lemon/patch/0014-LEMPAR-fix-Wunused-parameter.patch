@@ -1,0 +1,34 @@
+From 885b3a2c62e4ed5e2ca22b398f241d1514506ab6 Mon Sep 17 00:00:00 2001
+From: Alexis La Goutte <alexis.lagoutte@gmail.com>
+Date: Sun, 28 Jun 2015 21:38:35 +0200
+Subject: [PATCH 14/14] LEMPAR: fix -Wunused-parameter
+
+---
+ tools/lemon/lempar.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/tools/lemon/lempar.c b/tools/lemon/lempar.c
+index 3b69246..f560dce 100644
+--- a/tools/lemon/lempar.c
++++ b/tools/lemon/lempar.c
+@@ -473,7 +473,7 @@ static int yy_find_reduce_action(
+ /*
+ ** The following routine is called if the stack overflows.
+ */
+-static void yyStackOverflow(yyParser *yypParser, YYMINORTYPE *yypMinor){
++static void yyStackOverflow(yyParser *yypParser, YYMINORTYPE *yypMinor _U_){
+    ParseARG_FETCH;
+    yypParser->yyidx--;
+ #ifndef NDEBUG
+@@ -651,7 +651,7 @@ static void yy_parse_failed(
+ */
+ static void yy_syntax_error(
+   yyParser *yypParser,           /* The parser */
+-  int yymajor,                   /* The major type of the error token */
++  int yymajor _U_,               /* The major type of the error token */
+   YYMINORTYPE yyminor            /* The minor type of the error token */
+ ){
+   ParseARG_FETCH;
+-- 
+1.9.1
+

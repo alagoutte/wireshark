@@ -1,0 +1,30 @@
+From bcb62e49e0fdb7ff7b3cb365756a7caf10c79f38 Mon Sep 17 00:00:00 2001
+From: Alexis La Goutte <alexis.lagoutte@gmail.com>
+Date: Thu, 27 Nov 2014 21:50:32 +0100
+Subject: [PATCH 08/14] Remove unused function (acttab_free)
+
+---
+ tools/lemon/lemon.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/tools/lemon/lemon.c b/tools/lemon/lemon.c
+index f8445f2..a197d6c 100644
+--- a/tools/lemon/lemon.c
++++ b/tools/lemon/lemon.c
+@@ -575,11 +575,13 @@ struct acttab {
+ #define acttab_yylookahead(X,N)  ((X)->aAction[N].lookahead)
+ 
+ /* Free all memory associated with the given acttab */
++#if 0
+ PRIVATE void acttab_free(acttab *p){
+   free( p->aAction );
+   free( p->aLookahead );
+   free( p );
+ }
++#endif
+ 
+ /* Allocate a new acttab structure */
+ PRIVATE acttab *acttab_alloc(void){
+-- 
+1.9.1
+

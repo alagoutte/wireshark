@@ -1,0 +1,170 @@
+From 915db07a4ec59acd7fa40e3f15c29f7f3e4aad7a Mon Sep 17 00:00:00 2001
+From: Alexis La Goutte <alexis.lagoutte@gmail.com>
+Date: Mon, 1 Jun 2015 08:00:25 +0200
+Subject: [PATCH 05/14] lemon: fix warning: old-style function definition
+ [-Wold-style-definition]
+
+Change-Id: I4d0e84617f0e5dec044df693f7fab53c9b13f78c
+---
+ tools/lemon/lemon.c | 34 +++++++++++++++++-----------------
+ 1 file changed, 17 insertions(+), 17 deletions(-)
+
+diff --git a/tools/lemon/lemon.c b/tools/lemon/lemon.c
+index 198593a..d13fb1c 100644
+--- a/tools/lemon/lemon.c
++++ b/tools/lemon/lemon.c
+@@ -1257,7 +1257,7 @@ PRIVATE void deleteconfig(struct config *old)
+ }
+ 
+ /* Initialized the configuration list builder */
+-void Configlist_init(){
++void Configlist_init(void){
+   current = 0;
+   currentend = &current;
+   basis = 0;
+@@ -1267,7 +1267,7 @@ void Configlist_init(){
+ }
+ 
+ /* Initialized the configuration list builder */
+-void Configlist_reset(){
++void Configlist_reset(void){
+   current = 0;
+   currentend = &current;
+   basis = 0;
+@@ -1377,14 +1377,14 @@ void Configlist_closure(struct lemon *lemp)
+ }
+ 
+ /* Sort the configuration list */
+-void Configlist_sort(){
++void Configlist_sort(void){
+   current = (struct config *)msort((char *)current,(char **)&(current->next),Configcmp);
+   currentend = 0;
+   return;
+ }
+ 
+ /* Sort the basis configuration list */
+-void Configlist_sortbasis(){
++void Configlist_sortbasis(void){
+   basis = (struct config *)msort((char *)current,(char **)&(current->bp),Configcmp);
+   basisend = 0;
+   return;
+@@ -1392,7 +1392,7 @@ void Configlist_sortbasis(){
+ 
+ /* Return a pointer to the head of the configuration list and
+ ** reset the list */
+-struct config *Configlist_return(){
++struct config *Configlist_return(void){
+   struct config *old;
+   old = current;
+   current = 0;
+@@ -1402,7 +1402,7 @@ struct config *Configlist_return(){
+ 
+ /* Return a pointer to the head of the configuration list and
+ ** reset the list */
+-struct config *Configlist_basis(){
++struct config *Configlist_basis(void){
+   struct config *old;
+   old = basis;
+   basis = 0;
+@@ -1949,7 +1949,7 @@ int OptInit(char **a, struct s_options *o, FILE *err)
+   return 0;
+ }
+ 
+-int OptNArgs(){
++int OptNArgs(void){
+   int cnt = 0;
+   int dashdash = 0;
+   int i;
+@@ -1976,7 +1976,7 @@ void OptErr(int n)
+   if( i>=0 ) errline(i,0,errstream);
+ }
+ 
+-void OptPrint(){
++void OptPrint(void){
+   int i;
+   int max, len;
+   max = 0;
+@@ -2792,7 +2792,7 @@ void Parse(struct lemon *gp)
+ static struct plink *plink_freelist = 0;
+ 
+ /* Allocate a new plink */
+-struct plink *Plink_new(){
++struct plink *Plink_new(void){
+   struct plink *newlink;
+ 
+   if( plink_freelist==0 ){
+@@ -4335,7 +4335,7 @@ void SetSize(int n)
+ }
+ 
+ /* Allocate a new set */
+-char *SetNew(){
++char *SetNew(void){
+   char *s;
+   s = (char*)calloc( size, 1);
+   if( s==0 ){
+@@ -4440,7 +4440,7 @@ typedef struct s_x1node {
+ static struct s_x1 *x1a;
+ 
+ /* Allocate a new associative array */
+-void Strsafe_init(){
++void Strsafe_init(void){
+   if( x1a ) return;
+   x1a = (struct s_x1*)malloc( sizeof(struct s_x1) );
+   if( x1a ){
+@@ -4607,7 +4607,7 @@ typedef struct s_x2node {
+ static struct s_x2 *x2a;
+ 
+ /* Allocate a new associative array */
+-void Symbol_init(){
++void Symbol_init(void){
+   if( x2a ) return;
+   x2a = (struct s_x2*)malloc( sizeof(struct s_x2) );
+   if( x2a ){
+@@ -4711,7 +4711,7 @@ struct symbol *Symbol_Nth(int n)
+ }
+ 
+ /* Return the size of the array */
+-int Symbol_count()
++int Symbol_count(void)
+ {
+   return x2a ? x2a->count : 0;
+ }
+@@ -4719,7 +4719,7 @@ int Symbol_count()
+ /* Return an array of pointers to all data in the table.
+ ** The array is obtained from malloc.  Return NULL if memory allocation
+ ** problems, or if the array is empty. */
+-struct symbol **Symbol_arrayof()
++struct symbol **Symbol_arrayof(void)
+ {
+   struct symbol **array;
+   int i,arrSize;
+@@ -4770,7 +4770,7 @@ PRIVATE unsigned statehash(struct config *a)
+ }
+ 
+ /* Allocate a new state structure */
+-struct state *State_new()
++struct state *State_new(void)
+ {
+   struct state *newstate;
+   newstate = (struct state *)calloc(1, sizeof(struct state) );
+@@ -4804,7 +4804,7 @@ typedef struct s_x3node {
+ static struct s_x3 *x3a;
+ 
+ /* Allocate a new associative array */
+-void State_init(){
++void State_init(void){
+   if( x3a ) return;
+   x3a = (struct s_x3*)malloc( sizeof(struct s_x3) );
+   if( x3a ){
+@@ -4944,7 +4944,7 @@ typedef struct s_x4node {
+ static struct s_x4 *x4a;
+ 
+ /* Allocate a new associative array */
+-void Configtable_init(){
++void Configtable_init(void){
+   if( x4a ) return;
+   x4a = (struct s_x4*)malloc( sizeof(struct s_x4) );
+   if( x4a ){
+-- 
+1.9.1
+

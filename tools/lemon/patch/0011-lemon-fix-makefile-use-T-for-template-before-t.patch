@@ -1,0 +1,124 @@
+From 08ed7ec5129fa11fb1ede111c3e5836b4d99b181 Mon Sep 17 00:00:00 2001
+From: Alexis La Goutte <alexis.lagoutte@gmail.com>
+Date: Mon, 29 Jun 2015 21:44:57 +0200
+Subject: [PATCH 11/14] lemon: fix makefile use -T= for template (before -t=)
+
+Change-Id: I9ac61b313929493fb647a21ae5e269a52a8b474c
+---
+ cmake/modules/UseLemon.cmake | 2 +-
+ epan/Makefile.am             | 2 +-
+ epan/Makefile.nmake          | 2 +-
+ epan/dfilter/Makefile.am     | 2 +-
+ epan/dfilter/Makefile.nmake  | 2 +-
+ plugins/mate/Makefile.am     | 2 +-
+ plugins/mate/Makefile.nmake  | 2 +-
+ plugins/tpg/Makefile.nmake   | 2 +-
+ 8 files changed, 8 insertions(+), 8 deletions(-)
+
+diff --git a/cmake/modules/UseLemon.cmake b/cmake/modules/UseLemon.cmake
+index fbdf518..6e97144 100644
+--- a/cmake/modules/UseLemon.cmake
++++ b/cmake/modules/UseLemon.cmake
+@@ -14,7 +14,7 @@ MACRO(ADD_LEMON_FILES _sources )
+           ${_out}.h
+           ${_out}.out
+          COMMAND lemon
+-           t=${_lemonpardir}/lempar.c
++           T=${_lemonpardir}/lempar.c
+            ${_in}
+          DEPENDS
+            ${_in}
+diff --git a/epan/Makefile.am b/epan/Makefile.am
+index f9d2da0..90a4b6b 100644
+--- a/epan/Makefile.am
++++ b/epan/Makefile.am
+@@ -183,7 +183,7 @@ LEMON=../tools/lemon
+ 
+ dtd_grammar.h: dtd_grammar.c
+ dtd_grammar.c : $(LEMON)/lemon$(EXEEXT) $(srcdir)/$(LEMON)/lempar.c $(srcdir)/dtd_grammar.lemon
+-	$(AM_V_LEMON)$(LEMON)/lemon$(EXEEXT) t=$(srcdir)/$(LEMON)/lempar.c $(srcdir)/dtd_grammar.lemon
++	$(AM_V_LEMON)$(LEMON)/lemon$(EXEEXT) T=$(srcdir)/$(LEMON)/lempar.c $(srcdir)/dtd_grammar.lemon
+ 
+ tvbtest.o exntest.o oids_test.o: exceptions.h
+ 
+diff --git a/epan/Makefile.nmake b/epan/Makefile.nmake
+index cdb804d..6384324 100644
+--- a/epan/Makefile.nmake
++++ b/epan/Makefile.nmake
+@@ -431,7 +431,7 @@ LEMON=..\tools\lemon
+ 
+ dtd_grammar.h: dtd_grammar.c
+ dtd_grammar.c: $(LEMON)\lemon.exe $(LEMON)\lempar.c dtd_grammar.lemon
+-	$(LEMON)\lemon t=$(LEMON)\lempar.c dtd_grammar.lemon
++	$(LEMON)\lemon T=$(LEMON)\lempar.c dtd_grammar.lemon
+ 
+ #
+ # We compile these specially because they're test programs, not library
+diff --git a/epan/dfilter/Makefile.am b/epan/dfilter/Makefile.am
+index 81a9b4f..7db0fa2 100644
+--- a/epan/dfilter/Makefile.am
++++ b/epan/dfilter/Makefile.am
+@@ -79,7 +79,7 @@ LEMON=../../tools/lemon
+ 
+ grammar.h : grammar.c
+ grammar.c : $(LEMON)/lemon$(EXEEXT) $(srcdir)/$(LEMON)/lempar.c $(srcdir)/grammar.lemon
+-	$(AM_V_LEMON)$(LEMON)/lemon$(EXEEXT) t=$(srcdir)/$(LEMON)/lempar.c $(srcdir)/grammar.lemon || \
++	$(AM_V_LEMON)$(LEMON)/lemon$(EXEEXT) T=$(srcdir)/$(LEMON)/lempar.c $(srcdir)/grammar.lemon || \
+ 		(rm -f grammar.c grammar.h ; false)
+ 
+ checkapi:
+diff --git a/epan/dfilter/Makefile.nmake b/epan/dfilter/Makefile.nmake
+index e2c5a31..3045e2e 100644
+--- a/epan/dfilter/Makefile.nmake
++++ b/epan/dfilter/Makefile.nmake
+@@ -68,7 +68,7 @@ scanner.c: grammar.h
+ 
+ grammar.h : grammar.c
+ grammar.c : $(LEMON)\lemon.exe $(LEMON)\lempar.c grammar.lemon
+-	$(LEMON)\lemon.exe t=$(LEMON)\lempar.c grammar.lemon
++	$(LEMON)\lemon.exe T=$(LEMON)\lempar.c grammar.lemon
+ 
+ $(LEMON)\lemon.exe:
+ 	cd ../../tools
+diff --git a/plugins/mate/Makefile.am b/plugins/mate/Makefile.am
+index 1687bc9..dfbc07d 100644
+--- a/plugins/mate/Makefile.am
++++ b/plugins/mate/Makefile.am
+@@ -153,7 +153,7 @@ mate_parser.lo : mate_grammar.h
+ 
+ mate_grammar.h : mate_grammar.c
+ mate_grammar.c : mate_grammar.lemon mate.h mate_util.h $(LEMON)/lemon$(EXEEXT)
+-	$(AM_V_LEMON)$(LEMON)/lemon$(EXEEXT) t=$(srcdir)/$(LEMON)/lempar.c $(srcdir)/mate_grammar.lemon || \
++	$(AM_V_LEMON)$(LEMON)/lemon$(EXEEXT) T=$(srcdir)/$(LEMON)/lempar.c $(srcdir)/mate_grammar.lemon || \
+ 		(rm -f grammar.c grammar.h ; false)
+ 
+ checkapi:
+diff --git a/plugins/mate/Makefile.nmake b/plugins/mate/Makefile.nmake
+index dd715a6..7687be0 100644
+--- a/plugins/mate/Makefile.nmake
++++ b/plugins/mate/Makefile.nmake
+@@ -130,7 +130,7 @@ mate_parser.obj : mate_parser.c
+ 
+ mate_grammar.h : mate_grammar.c
+ mate_grammar.c : mate_grammar.lemon $(LEMON)\lemon.exe
+-	$(LEMON)\lemon.exe t=$(LEMON)\lempar.c mate_grammar.lemon
++	$(LEMON)\lemon.exe T=$(LEMON)\lempar.c mate_grammar.lemon
+ 
+ $(LEMON)\lemon.exe:
+ 	cd ../../tools
+diff --git a/plugins/tpg/Makefile.nmake b/plugins/tpg/Makefile.nmake
+index 48e5958..e10daf8 100644
+--- a/plugins/tpg/Makefile.nmake
++++ b/plugins/tpg/Makefile.nmake
+@@ -55,7 +55,7 @@ mate_parser.c : mate_parser.l
+ 
+ mate_grammar.h : mate_grammar.c
+ mate_grammar.c : mate_grammar.lemon $(LEMON)\lemon.exe
+-	$(LEMON)\lemon.exe t=$(LEMON)\lempar.c mate_grammar.lemon
++	$(LEMON)\lemon.exe T=$(LEMON)\lempar.c mate_grammar.lemon
+ 
+ $(LEMON)\lemon.exe:
+ 	cd ../../tools
+-- 
+1.9.1
+

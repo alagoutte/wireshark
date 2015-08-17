@@ -282,11 +282,6 @@ Olivier Biot            <obiot.ethereal[AT]gmail.com> {
 	Generic media dissector (in analogy to the data dissector)
 }
 
-Christian Lacunza       <celacunza[AT]gmx.net> {
-	Command-line option to control automatic scrolling in "Update
-	    list of packets in real time" captures
-}
-
 Scott Renfro            <scott[AT]renfro.org> {
 	LDAP checks for invalid packets
 	"-t" flag for editcap, to adjust timestamps in frames

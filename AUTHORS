@@ -282,10 +282,6 @@ Olivier Biot            <obiot.ethereal[AT]gmail.com> {
 	Generic media dissector (in analogy to the data dissector)
 }
 
-Edgar Iglesias          <edgar.iglesias[AT]axis.com> {
-	Fix to TCP reassembly code for retransmitted data
-}
-
 Martina Obermeier       <Martina.Obermeier[AT]icn.siemens.de> {
 	ISUP (ISDN User Part, ITU-T recommendation Q.763) support
 }

@@ -282,10 +282,6 @@ Olivier Biot            <obiot.ethereal[AT]gmail.com> {
 	Generic media dissector (in analogy to the data dissector)
 }
 
-Patrick Wolfe           <pjw[AT]zocalo.cellular.ameritech.com> {
-	WTLS client and trusted key ID handling enhancements
-}
-
 Martin Held             <Martin.Held[AT]icn.siemens.de> {
 	RANAP support
 }

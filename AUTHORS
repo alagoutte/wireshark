@@ -282,10 +282,6 @@ Olivier Biot            <obiot.ethereal[AT]gmail.com> {
 	Generic media dissector (in analogy to the data dissector)
 }
 
-Javier Achirica         <achirica[AT]ttd.net> {
-	IEEE 802.11 bug fixes and WEP support
-}
-
 B. Johannessen          <bob[AT]havoq.com> {
 	Gnutella support
 }

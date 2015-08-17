@@ -282,10 +282,6 @@ Olivier Biot            <obiot.ethereal[AT]gmail.com> {
 	Generic media dissector (in analogy to the data dissector)
 }
 
-Jian Yu                 <bgp4news[AT]yahoo.com> {
-	BGP enhancements
-}
-
 Eran Mann               <emann[AT]opticalaccess.com> {
 	Fix to LDP prefix FEC dissection for IPv4
 }

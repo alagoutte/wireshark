@@ -282,10 +282,6 @@ Olivier Biot            <obiot.ethereal[AT]gmail.com> {
 	Generic media dissector (in analogy to the data dissector)
 }
 
-B. Johannessen          <bob[AT]havoq.com> {
-	Gnutella support
-}
-
 Thierry Pelle           <thierry.pelle[AT]laposte.net> {
 	MP-BGP message support
 	Redback vendor-specific items for RADIUS and L2TP

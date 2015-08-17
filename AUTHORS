@@ -282,18 +282,6 @@ Olivier Biot            <obiot.ethereal[AT]gmail.com> {
 	Generic media dissector (in analogy to the data dissector)
 }
 
-Laurent Rabret          <laurent.rabret[AT]rd.francetelecom.fr> {
-	LCP-over Ethernet and IPCP-over-Ethernet support (to handle
-	    captures on Windows; PPP packets show up as Ethernet
-	    packets, courtesy of NDISWAN, and apparently internal-to-PPP
-	    protocols get passed through, with PPP protocol types
-	    appearing in the Ethernet protocol type field)
-	PAP support
-	BGP bug fix
-	ISIS fixes and enhancements
-	OPSI support
-}
-
 nuf si                  <gnippiks[AT]yahoo.com> {
 	RTSP fixes
 }

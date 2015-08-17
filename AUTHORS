@@ -282,10 +282,6 @@ Olivier Biot            <obiot.ethereal[AT]gmail.com> {
 	Generic media dissector (in analogy to the data dissector)
 }
 
-nuf si                  <gnippiks[AT]yahoo.com> {
-	RTSP fixes
-}
-
 Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	M2PA support
 	Support for ANSI flavor of MTP3

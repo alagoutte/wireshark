@@ -282,14 +282,6 @@ Olivier Biot            <obiot.ethereal[AT]gmail.com> {
 	Generic media dissector (in analogy to the data dissector)
 }
 
-Jean-Christian Pennetier <jeanchristian.pennetier[AT]rd.francetelecom.fr> {
-	ISIS IPv6 routing TLV dissection
-	ISIS traffic engineering TLV dissection
-	IS neighbor and IP reachability TLVs given their own subtree
-	    types
-	Assorted other ISIS fixes
-}
-
 Jian Yu                 <bgp4news[AT]yahoo.com> {
 	BGP enhancements
 }

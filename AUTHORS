@@ -282,12 +282,6 @@ Olivier Biot            <obiot.ethereal[AT]gmail.com> {
 	Generic media dissector (in analogy to the data dissector)
 }
 
-Thierry Pelle           <thierry.pelle[AT]laposte.net> {
-	MP-BGP message support
-	Redback vendor-specific items for RADIUS and L2TP
-	IPv6CP support
-}
-
 Francisco Javier Cabello <fjcabello[AT]vtools.es> {
 	RFC 2250 MPEG1 support
 }

@@ -282,10 +282,6 @@ Olivier Biot            <obiot.ethereal[AT]gmail.com> {
 	Generic media dissector (in analogy to the data dissector)
 }
 
-Martin Held             <Martin.Held[AT]icn.siemens.de> {
-	RANAP support
-}
-
 Riaan Swart             <rswart[AT]cs.sun.ac.za> {
 	Modbus/TCP support
 }

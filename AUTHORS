@@ -282,10 +282,6 @@ Olivier Biot            <obiot.ethereal[AT]gmail.com> {
 	Generic media dissector (in analogy to the data dissector)
 }
 
-Francisco Javier Cabello <fjcabello[AT]vtools.es> {
-	RFC 2250 MPEG1 support
-}
-
 Laurent Rabret          <laurent.rabret[AT]rd.francetelecom.fr> {
 	LCP-over Ethernet and IPCP-over-Ethernet support (to handle
 	    captures on Windows; PPP packets show up as Ethernet

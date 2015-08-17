@@ -282,10 +282,6 @@ Olivier Biot            <obiot.ethereal[AT]gmail.com> {
 	Generic media dissector (in analogy to the data dissector)
 }
 
-Juan Toledo             <toledo[AT]users.sourceforge.net> {
-	Passive FTP support
-}
-
 Jean-Christian Pennetier <jeanchristian.pennetier[AT]rd.francetelecom.fr> {
 	ISIS IPv6 routing TLV dissection
 	ISIS traffic engineering TLV dissection

@@ -282,16 +282,6 @@ Olivier Biot            <obiot.ethereal[AT]gmail.com> {
 	Generic media dissector (in analogy to the data dissector)
 }
 
-Scott Renfro            <scott[AT]renfro.org> {
-	LDAP checks for invalid packets
-	"-t" flag for editcap, to adjust timestamps in frames
-	SSL/TLS support
-	Mergecap utility for merging capture files
-	Fixes for some calls to "localtime()" that didn't check whether
-	   the call succeeded (it doesn't always do so on Windows, for
-	   example)
-}
-
 Juan Toledo             <toledo[AT]users.sourceforge.net> {
 	Passive FTP support
 }

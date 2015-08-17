@@ -282,15 +282,6 @@ Olivier Biot            <obiot.ethereal[AT]gmail.com> {
 	Generic media dissector (in analogy to the data dissector)
 }
 
-Andy Hood               <ajhood[AT]fl.net.au> {
-	"--with-ssl" configuration option, to use if UCD SNMP is
-	   compiled with crypto support and needs -lcrypto
-	On Solaris, with GCC, add flags to reduce warnings from
-	   inadequacies of function declarations in X11 headers
-	Translate enterprise OIDs in SNMP traps to strings if possible
-	AODV6 dissector compile fixes for AIX
-}
-
 Randy McEoin            <rmceoin[AT]ahbelo.com> {
 	Appletalk Data Stream Interface (used by AFP-over-TCP) support
 	Xyplex protocol support

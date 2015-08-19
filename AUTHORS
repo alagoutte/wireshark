@@ -293,11 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-Markus Seehofer         <Markus.Seehofer[AT]hirschmann.de> {
-	GMRP support
-	IEEE 1588 / PTP version 2 support
-}
-
 Lee Berger              <lberger[AT]roy.org> {
 	Fix to FT_UINT_STRING handling
 }

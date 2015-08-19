@@ -293,13 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-Pasi Eronen             <pe[AT]iki.fi> {
-	Patches to the dcerpc dissector for data representation decoding
-	XDMCP support
-	Support for PCT cipher suites and record layer in SSL
-	Dissect the packet inside an LCP Protocol-Reject message
-}
-
 Georg von Zezschwitz    <gvz[AT]2scale.net> {
 	WSP fixes
 	Support for concatenated PDUs

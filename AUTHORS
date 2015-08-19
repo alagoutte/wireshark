@@ -293,10 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-Steffen Weinreich       <steve[AT]weinreich.org> {
-	UCP fixes
-}
-
 Marc Milgram            <ethereal[AT]mmilgram.NOSPAMmail.net> {
 	VMS TCPIPtrace wiretap module
 	DBS Etherwatch wiretap module

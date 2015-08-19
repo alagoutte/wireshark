@@ -293,17 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-Aamer Akhter            <aakhter[AT]cisco.com> {
-	Support for draft-rosen-vpn-ospf-bgp-mpls
-	Support for additional BGP extended communities
-	LDP support for draft-martini-l2circuit-trans-mpls, LDP status
-	    code updates, and small LDP cleanups
-	LDP support for draft-martini-l2circuit-encap-mpls for
-	    Ethernet-over-MPLS
-	Fix initialization of ett_slarp in CHDLC dissector
-	LDP PWE updates
-}
-
 Pekka Savola            <pekkas[AT]netcore.fi> {
 	Autoconf support for glibc IPv6 support
 }

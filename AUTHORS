@@ -293,10 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-Jean-Francois Mule      <jfm[AT]cablelabs.com> {
-	Additional SIP methods
-}
-
 Thomas Wittwer          <thomas.wittwer[AT]iclip.ch> {
 	HTTP dissector registered by name
 	"prefs_register_string_preference()" made available to plugins

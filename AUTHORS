@@ -293,10 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-Pekka Savola            <pekkas[AT]netcore.fi> {
-	Autoconf support for glibc IPv6 support
-}
-
 David Eisner            <deisner[AT]gmail.com> {
 	NCP-over-IP bug fix
 }

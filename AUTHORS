@@ -293,15 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-Graeme Hewson           <ghewson[AT]wormhole.me.uk> {
-	Additional Ascend codes, and IETF codes, for Radius
-	Fix various capture problems
-	Add some sanity checks to DNS dissector to avoid loops
-	Command-line interface cleanups
-	Varargs code cleanup in "simple_dialog.c"
-	Make dialog box pop up only after a minimum period of time
-}
-
 Pasi Eronen             <pe[AT]iki.fi> {
 	Patches to the dcerpc dissector for data representation decoding
 	XDMCP support

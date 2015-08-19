@@ -293,39 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-Motonori Shindo         <motonori[AT]shin.do> {
-	Shiva PAP, EAP, and CBCP negotiation in LCP Callback Operation
-	    support in PPP dissector
-	Support for decoding additional data, for CHAP, in LCP
-	    Authentication Protocol option
-	Additional vendor (CoSine) for Radius
-	CoSine VSA support for Radius
-	Patches to PPP for CHAP support
-	Patches to packet-x11-keysym.h to clean up 8-bit chars
-	Fixes to take the Vendor-Specific attribute into consideration
-	    when dissecting L2TP
-	L2TP Dissconnect Cause Information AVP support
-	PPP CCP support
-	PPP compressed packet support
-	Assorted BGP improvements
-	CBCP support in PPP
-	Fix Ascend/Lucent trace reading code to handle later trace
-	    formats that have an ASCII dump at the end of the line
-	Get rid of "send output to /dev/null" hack in Ascend/Lucent
-	   trace reading code's Flex scanner
-	BACP and BAP support in PPP dissector
-	Add necessary cast in TCP graph code
-	Fix up the generation of PDB files, clean them up on a "nmake -f
-	    makefile.nmake clean", and put all the PDB files into the
-	    Windows binary distribution
-	Delete installed data files on a Windows uninstallation
-	OSPF fixes
-	Support for reading CoSine L2 debug output
-	Assorted LDP enhancements and fixes
-	Key Information dissection in EAPOL-Key messages
-	sFlow/NetFlow/IPFIX dissector enhancement
-}
-
 Terje Krogdahl          <tekr[AT]nextra.com> {
 	Additional AVPs, and Event-Timestamp support, in RADIUS
 }

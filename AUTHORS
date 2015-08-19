@@ -293,11 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-Matthias Nyffenegger    <matthias.nyffenegger[AT]iclip.ch> {
-	Support for stopping capture at specified capture file size or
-	    capture duration
-}
-
 Palle Lyckegaard        <Palle[AT]lyckegaard.dk> {
 	OSPFv3 support
 }

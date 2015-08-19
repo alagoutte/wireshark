@@ -293,10 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-Steve Dickson           <steved[AT]talarian.com> {
-	PGM (Pragmatic General Multicast) support
-}
-
 Markus Seehofer         <Markus.Seehofer[AT]hirschmann.de> {
 	GMRP support
 	IEEE 1588 / PTP version 2 support

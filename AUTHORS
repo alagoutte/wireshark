@@ -293,10 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-David Eisner            <deisner[AT]gmail.com> {
-	NCP-over-IP bug fix
-}
-
 Steve Dickson           <steved[AT]talarian.com> {
 	PGM (Pragmatic General Multicast) support
 }

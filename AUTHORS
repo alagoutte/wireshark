@@ -293,10 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-Lee Berger              <lberger[AT]roy.org> {
-	Fix to FT_UINT_STRING handling
-}
-
 Motonori Shindo         <motonori[AT]shin.do> {
 	Shiva PAP, EAP, and CBCP negotiation in LCP Callback Operation
 	    support in PPP dissector

@@ -293,10 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-Pavel Novotny           <Pavel.Novotny[AT]icn.siemens.de> {
-	Additional items for RADIUS tunnels
-}
-
 Shinsuke Suzuki         <suz[AT]kame.net> {
 	DHCPv6 and PIM enhancements
 	IPv6 payload for GRE

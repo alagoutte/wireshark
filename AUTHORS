@@ -293,11 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-Marc Milgram            <ethereal[AT]mmilgram.NOSPAMmail.net> {
-	VMS TCPIPtrace wiretap module
-	DBS Etherwatch wiretap module
-}
-
 Gordon McKinney         <gordon[AT]night-ray.com> {
 	Enhanced Ethereal icon for Windows
 	Support for time stamping packets in text2pcap

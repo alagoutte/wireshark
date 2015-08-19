@@ -293,10 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-Terje Krogdahl          <tekr[AT]nextra.com> {
-	Additional AVPs, and Event-Timestamp support, in RADIUS
-}
-
 Jean-Francois Mule      <jfm[AT]cablelabs.com> {
 	Additional SIP methods
 }

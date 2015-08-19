@@ -293,12 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-Shinsuke Suzuki         <suz[AT]kame.net> {
-	DHCPv6 and PIM enhancements
-	IPv6 payload for GRE
-	MLDv2 enhancements
-}
-
 Andrew C. Feren         <acferen[AT]yahoo.com> {
 	Makefile fix
 	Solaris packaging fixes

@@ -293,10 +293,6 @@ Jeff Morriss            <jeff.morriss.ws[AT]gmail.com> {
 	Various bug fixes and enhancements
 }
 
-Palle Lyckegaard        <Palle[AT]lyckegaard.dk> {
-	OSPFv3 support
-}
-
 Nicolas Balkota         <balkota[AT]mac.com> {
 	GTPv1 support and GTPv0 improvements
 }

@@ -303,11 +303,6 @@ Tomas Kukosa            <tomas.kukosa[AT]unify.com> {
 	Plugin API for codecs (for RTP player)
 }
 
-Kazushi Sugyo           <k-sugyou[AT]nwsl.mesh.ad.jp> {
-	Fix to display of AH length field
-	Fix to code to scan the SIOCGIFCONF list
-}
-
 Tim Potter              <tpot[AT]samba.org> {
 	Support for DCE RPC atop SMB
 	Support for several Microsoft DCE RPC services used with SMB

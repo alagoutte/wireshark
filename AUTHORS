@@ -303,11 +303,6 @@ Tomas Kukosa            <tomas.kukosa[AT]unify.com> {
 	Plugin API for codecs (for RTP player)
 }
 
-Pekka Nikander          <pekka.nikander[AT]nomadiclab.com> {
-	IEEE 802.1x, a/k/a EAPOL
-	PPP/EAPOL EAP support
-}
-
 Hamish Moffatt          <hamish[AT]cloud.net.au> {
 	MPLS support for handling either IPv4 or IPv6 as the payload
 	    protocol type

@@ -303,12 +303,6 @@ Tomas Kukosa            <tomas.kukosa[AT]unify.com> {
 	Plugin API for codecs (for RTP player)
 }
 
-Andreas Stockmeier      <a.stockmeier[AT]avm.de> {
-	IPCOMP transformation and ID_IPV4_ADDR_SUBNET for ISAKMP
-	Fix the file dialog box code to use "g_strdup()", not "strdup()"
-	    to copy strings
-}
-
 Pekka Nikander          <pekka.nikander[AT]nomadiclab.com> {
 	IEEE 802.1x, a/k/a EAPOL
 	PPP/EAPOL EAP support

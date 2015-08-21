@@ -316,11 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Mike Frantzen           <frantzen[AT]w4g.org> {
-	Support for capturing on, and reading captures from, OpenBSD
-	    firewall logging virtual interface
-}
-
 Charlie Duke            <cduke[AT]fvc.com> {
 	Added routines to the plugin table
 }

@@ -316,16 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Jirka Novak             <j.novak[AT]netsystem.cz> {
-	Support for generating filter expressions based on packet list
-	    column values
-	Support for adding filter expressions generated from column or
-	    protocol tree field values to the current expression rather
-	    than replacing the current expression
-	Support for hex dump mode in "Follow TCP Stream" window showing
-	    hex and ASCII data
-}
-
 Ricardo Barroetaveña    <rbarroetavena[AT]veufort.com> {
 	Enhanced LDP support
 	Support TCP reassembly requiring multiple steps (e.g.,

@@ -316,10 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Jayaram V.R             <vjayar[AT]cisco.com> {
-	PPP multiplexing support
-}
-
 Dinesh Dutt             <ddutt[AT]cisco.com> {
 	SCSI dissector, for use by iSCSI and other protocols that
 	    transport SCSI operations

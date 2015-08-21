@@ -316,10 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Heinz Prantner          <Heinz.Prantner[AT]radisys.com> {
-	M2TP support
-}
-
 Irfan Khan              <ikhan[AT]qualcomm.com> {
 	pppdump reader fixes
 	Van Jacobson decompression support for PPP

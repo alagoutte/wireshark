@@ -316,10 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Darren New              <dnew[AT]san.rr.com> {
-	BXXP dissector modified to be a BEEP dissector
-}
-
 Pavel Mores             <pvl[AT]uh.cz> {
 	TCP time-sequence, round-trip time, and throughput graphs
 }

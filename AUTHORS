@@ -316,10 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Alfred Arnold           <Alfred.Arnold[AT]elsa.de> {
-	IAPP support
-}
-
 Dermot Bradley          <dermot.bradley[AT]openwave.com> {
 	Support for Openwave-specific WSP headers
 	Support for Openwave-specific WSP field names

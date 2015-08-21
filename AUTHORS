@@ -316,10 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Taisuke Sasaki          <sasaki[AT]soft.net.fujitsu.co.jp> {
-	OSPF fixes
-}
-
 Tim Newsham             <newsham[AT]lava.net> {
 	Support for 802.11+Prism II monitor-mode link-layer headers
 }

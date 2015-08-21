@@ -316,11 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Nagarjuna Venna         <nvenna[AT]Brixnet.com> {
-	Only display the reason in BYE RTCP packets if it's present
-	Support for RTCP-XR support as in RFC 3611
-}
-
 Jirka Novak             <j.novak[AT]netsystem.cz> {
 	Support for generating filter expressions based on packet list
 	    column values

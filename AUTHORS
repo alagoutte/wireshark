@@ -316,18 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Adam Sulmicki           <adam[AT]cfar.umd.edu> {
-	Add more type values for EAP.
-	Fix off-by-one bug when displaying Code of EAP message.
-	Additional AVPs for RADIUS, and making RD_TP_CONNECT_INFO a
-	    RADIUS_STRING rather than a RADIUS_STRING_TAGGED
-	Dissect EAP messages inside RADIUS
-	Dissect SSL-encoded stuff inside EAP
-	Cisco LEAP support
-	EAP-TLS reassembly
-	Other EAP enhancements
-}
-
 Kari Tiirikainen        <kari.tiirikainen[AT]nokia.com> {
 	COPS-PR extension support
 	Support for reading MIBs containing converted PIBs in COPS

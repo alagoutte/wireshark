@@ -316,10 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Pavel Mores             <pvl[AT]uh.cz> {
-	TCP time-sequence, round-trip time, and throughput graphs
-}
-
 Bernd Becker            <bb[AT]bernd-becker.de> {
 	Support for LOCATION_FORWARD, LOCATION_FORWARD_PERM and
 	    NEEDS_ADDRESSING_MODE replies in GIOP

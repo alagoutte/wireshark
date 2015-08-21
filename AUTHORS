@@ -316,10 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Charlie Duke            <cduke[AT]fvc.com> {
-	Added routines to the plugin table
-}
-
 Alfred Arnold           <Alfred.Arnold[AT]elsa.de> {
 	IAPP support
 }

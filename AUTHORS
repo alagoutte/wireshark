@@ -316,10 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Tim Newsham             <newsham[AT]lava.net> {
-	Support for 802.11+Prism II monitor-mode link-layer headers
-}
-
 Tom Nisbet              <Tnisbet[AT]VisualNetworks.com> {
 	Support for reading Visual Networks traffic capture files
 	SLIMP3 protocol version 2 support

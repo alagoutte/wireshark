@@ -316,16 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Bernd Becker            <bb[AT]bernd-becker.de> {
-	Support for LOCATION_FORWARD, LOCATION_FORWARD_PERM and
-	    NEEDS_ADDRESSING_MODE replies in GIOP
-	ethereal_gen.py cleanups
-	Reset the Protocol column to GIOP if no heuristic dissectors
-	    succeed
-	Enhancements to TNS dissector, including desegmentation
-	GIOP fixes
-}
-
 Heinz Prantner          <Heinz.Prantner[AT]radisys.com> {
 	M2TP support
 }

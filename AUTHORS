@@ -316,10 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Raghu Angadi            <rangadi[AT]inktomi.com> {
-	WCCP capability info dissection bug fix
-}
-
 Taisuke Sasaki          <sasaki[AT]soft.net.fujitsu.co.jp> {
 	OSPF fixes
 }

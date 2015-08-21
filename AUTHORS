@@ -316,13 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Dermot Bradley          <dermot.bradley[AT]openwave.com> {
-	Support for Openwave-specific WSP headers
-	Support for Openwave-specific WSP field names
-	Support for additional WSP content types from Openwave
-	Support for additional WSP language values
-}
-
 Adam Sulmicki           <adam[AT]cfar.umd.edu> {
 	Add more type values for EAP.
 	Fix off-by-one bug when displaying Code of EAP message.

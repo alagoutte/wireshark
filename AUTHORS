@@ -316,11 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Peter Valchev           <pvalchev[AT]openbsd.org> {
-	Fix editcap to assign the result of "getopt()" to an "int" and
-	   to check "getopt()"s return value with -1 rather than EOF
-}
-
 Alex Rozin              <Arozin[AT]mrv.com> {
 	Support for IEEE 802.1w RST BPDUs
 }

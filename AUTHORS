@@ -316,11 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Irfan Khan              <ikhan[AT]qualcomm.com> {
-	pppdump reader fixes
-	Van Jacobson decompression support for PPP
-}
-
 Jayaram V.R             <vjayar[AT]cisco.com> {
 	PPP multiplexing support
 }

@@ -316,10 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Alan Harrison           <alanharrison[AT]mail.com> {
-	Fixes to EtherPeek file reader code
-}
-
 Mike Frantzen           <frantzen[AT]w4g.org> {
 	Support for capturing on, and reading captures from, OpenBSD
 	    firewall logging virtual interface

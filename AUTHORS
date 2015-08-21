@@ -316,13 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Ricardo Barroetaveña    <rbarroetavena[AT]veufort.com> {
-	Enhanced LDP support
-	Support TCP reassembly requiring multiple steps (e.g.,
-	    reassemble the PDU header to get the length of the PDU, then
-	    reassemble the PDU based on that length)
-}
-
 Alan Harrison           <alanharrison[AT]mail.com> {
 	Fixes to EtherPeek file reader code
 }

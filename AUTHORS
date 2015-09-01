@@ -336,11 +336,6 @@ Didier Gautheron        <dgautheron[AT]magic.fr> {
 	Don't update the progress bar too often (only every 100ms)
 }
 
-Ruud Linders            <ruud[AT]lucent.com> {
-	Report errors from "g_module_open()"
-	Heuristic version of the RTP dissector
-}
-
 Andrew Esh              <Andrew.Esh[AT]tricord.com> {
 	Support for additional interest levels in
 	    TRANS2_QUERY_FS_INFORMATION, and fix handling of level 1022

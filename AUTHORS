@@ -336,27 +336,6 @@ Didier Gautheron        <dgautheron[AT]magic.fr> {
 	Don't update the progress bar too often (only every 100ms)
 }
 
-Devin Heitmueller       <dheitmueller[AT]netilla.com> {
-	Additional RAP error code
-	Give the user a warning if they click "New" in the filter list
-	    editing code without having specified a filter name and string
-	Fix to treat the "send buffer length" in SMB RAP messages as
-	    being present in the packet
-	Dissection of NTLMSSP authentication for DCERPC
-	Show proper field names for SAMR UnicodeChangePassword2
-	Add MD4 and RC4 crypto support
-	Decrypt the NT password encryption block in
-	    UnicodeChangePassword2
-	Supply offset to dissectors for connection-oriented DCERPC PDU
-	    types
-	Support for decrypting DCERPC conversations using NTLMSSP
-	    version 1
-	AIM enhancements
-	Follow TCP Stream support for showing stream data as C byte
-	    arrays
-	YMSG desegmentation
-}
-
 Chenjiang Hu            <chu[AT]chiaro.com> {
 	ISIS bug fix for dissecting unreserved bandwidths
 }

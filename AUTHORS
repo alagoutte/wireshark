@@ -316,10 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Diana Eichert           <deicher[AT]sandia.gov> {
-	"-q" flag to Tethereal to suppress packet count display
-}
-
 Blair Cooper            <blair[AT]teamon.com> {
 	WebDAV support
 }

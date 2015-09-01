@@ -316,10 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Blair Cooper            <blair[AT]teamon.com> {
-	WebDAV support
-}
-
 Kikuchi Ayamura         <ayamura[AT]ayamura.org> {
 	Include <ucd-snmp/ucd-snmp-config.h> to fix IRIX compilation
 	    problems

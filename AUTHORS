@@ -316,11 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Jim Sienicki            <sienicki[AT]issanni.com> {
-	Additional vendor (Issani) for Radius
-	Issani VSA support for Radius
-}
-
 Steven French           <sfrench[AT]us.ibm.com> {
 	Add names for some additional spool service RPCs
 	Decode NT Rename SMB

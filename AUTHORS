@@ -336,10 +336,6 @@ Didier Gautheron        <dgautheron[AT]magic.fr> {
 	Don't update the progress bar too often (only every 100ms)
 }
 
-Kevin Humphries         <khumphries[AT]networld.com> {
-	Additional PIM hello options support
-}
-
 Erik Nordström          <erik.nordstrom[AT]it.uu.se> {
 	AODV dissection support
 }

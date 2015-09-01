@@ -336,10 +336,6 @@ Didier Gautheron        <dgautheron[AT]magic.fr> {
 	Don't update the progress bar too often (only every 100ms)
 }
 
-Chenjiang Hu            <chu[AT]chiaro.com> {
-	ISIS bug fix for dissecting unreserved bandwidths
-}
-
 Kan Sasaki              <sasaki[AT]fcc.ad.jp> {
 	VSA decoding and other changes to RADIUS
 }

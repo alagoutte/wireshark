@@ -336,10 +336,6 @@ Didier Gautheron        <dgautheron[AT]magic.fr> {
 	Don't update the progress bar too often (only every 100ms)
 }
 
-Phil Williams           <csypbw[AT]comp.leeds.ac.uk> {
-	Support for looking up fields by name
-}
-
 Kevin Humphries         <khumphries[AT]networld.com> {
 	Additional PIM hello options support
 }

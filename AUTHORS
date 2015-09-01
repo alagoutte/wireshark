@@ -336,11 +336,6 @@ Didier Gautheron        <dgautheron[AT]magic.fr> {
 	Don't update the progress bar too often (only every 100ms)
 }
 
-Stefan Wenk             <stefan.wenk[AT]gmx.at> {
-	SIP heuristic dissector
-	Filterable header fields in SIP dissector
-}
-
 Ruud Linders            <ruud[AT]lucent.com> {
 	Report errors from "g_module_open()"
 	Heuristic version of the RTP dissector

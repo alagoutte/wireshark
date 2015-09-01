@@ -316,11 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Paul E. Erkkila         <pee[AT]erkkila.org> {
-	Skinny Client Control Protocol enhancements
-	Hazelcast Dissector
-}
-
 Jakob Schlyter          <jakob[AT]openbsd.org> {
 	SIP method additions
 }

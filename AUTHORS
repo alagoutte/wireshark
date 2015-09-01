@@ -316,11 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Kikuchi Ayamura         <ayamura[AT]ayamura.org> {
-	Include <ucd-snmp/ucd-snmp-config.h> to fix IRIX compilation
-	    problems
-}
-
 Didier Gautheron        <dgautheron[AT]magic.fr> {
 	X11 bug fix
 	AppleTalk Transaction Protocol, AppleTalk Stream Protocol, and

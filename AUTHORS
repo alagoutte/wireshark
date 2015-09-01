@@ -316,10 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Jakob Schlyter          <jakob[AT]openbsd.org> {
-	SIP method additions
-}
-
 Jim Sienicki            <sienicki[AT]issanni.com> {
 	Additional vendor (Issani) for Radius
 	Issani VSA support for Radius

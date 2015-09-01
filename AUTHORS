@@ -316,11 +316,6 @@ Tim Potter              <tpot[AT]samba.org> {
 	NT SID dissection
 }
 
-Steven French           <sfrench[AT]us.ibm.com> {
-	Add names for some additional spool service RPCs
-	Decode NT Rename SMB
-}
-
 Diana Eichert           <deicher[AT]sandia.gov> {
 	"-q" flag to Tethereal to suppress packet count display
 }

@@ -336,10 +336,6 @@ Didier Gautheron        <dgautheron[AT]magic.fr> {
 	Don't update the progress bar too often (only every 100ms)
 }
 
-Kan Sasaki              <sasaki[AT]fcc.ad.jp> {
-	VSA decoding and other changes to RADIUS
-}
-
 Stefan Wenk             <stefan.wenk[AT]gmx.at> {
 	SIP heuristic dissector
 	Filterable header fields in SIP dissector

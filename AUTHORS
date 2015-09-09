@@ -343,12 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Richard Urwin           <richard[AT]soronlin.org.uk> {
-	Developer documentation fixes and updates
-	Support for a system-wide color filter file and color filter
-	    import and export
-}
-
 Prabhakar Krishnan      <Prabhakar.Krishnan[AT]netapp.com> {
 	Add item to SMB protocol tree for time between request and
 	    response

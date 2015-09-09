@@ -343,10 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Peter Hawkins           <peter[AT]hawkins.emu.id.au> {
-	Various bounds-check fixes
-}
-
 Bill Fumerola           <billf[AT]FreeBSD.org> {
 	Recognize "Option negotiated failed" error in TFTP
 	Rewritten Cisco NetFlow protocol support

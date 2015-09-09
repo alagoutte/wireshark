@@ -343,10 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Antti Tuominen          <ajtuomin[AT]tml.hut.fi> {
-	AODV6 support
-}
-
 Martin Gignac           <lmcgign[AT]mobilitylab.net> {
 	Various MMSE fixes
 }

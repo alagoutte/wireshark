@@ -343,11 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Solomon Peachy          <pizza[AT]shaftnet.org> {
-	WEP support and other mangling of the 802.11 dissector
-	Support for new "wlancap" 802.11 extra-information header
-}
-
 Jaime Fournier          <Jaime.Fournier[AT]hush.com> {
 	Handle DCE RPC connectionless CANCEL PDUs with no body
 	DCE/RPC stub dissectors for RSEC_LOGIN, RS_ACCT, RS_ATTR, RS_MISC,

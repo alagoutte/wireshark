@@ -343,20 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Jaime Fournier          <Jaime.Fournier[AT]hush.com> {
-	Handle DCE RPC connectionless CANCEL PDUs with no body
-	DCE/RPC stub dissectors for RSEC_LOGIN, RS_ACCT, RS_ATTR, RS_MISC,
-		RS_PGO, RS_REPLIST, RS_UNIX, RPRIV, ROVERRIDE, RS_REPADM,
-		DTSSTIME_REQ, CDS_SOLICIT, CPRPC_SERVER, DTSPROVIDER,
-		UBIKDISK, UBIKVOTE, BOSSVR, FTSERVER, CDS_CLERKSERVER,
-		KRB5RPC, REP_PROC, SECIDMAP, TKN4INT, FLDB, AFS4INT,
-		UPDATE, BUDB, BUTC, RS_BIND, RS_PLCY, ICL RPC,
-		RS_PROP_ACCT, LLB, RDACLIF, RS_ATTR_SCHEMA, RS_PROP_ACL,
-		RS_PROP_ATTR, RS_PROP_PGO, RS_PROP_PLCY, RS_PWD_MGMT,
-		RS_REPMGR
-	DCE RPC EPM version 4 support
-}
-
 Markus Steinmann        <ms[AT]seh.de> {
 	Add IPX SAP for SEH's InterCon Printserver
 	Support for writing LANalyzer files

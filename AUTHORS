@@ -343,11 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Bill Fumerola           <billf[AT]FreeBSD.org> {
-	Recognize "Option negotiated failed" error in TFTP
-	Rewritten Cisco NetFlow protocol support
-}
-
 Chris Waters            <chris[AT]waters.co.nz> {
 	Don't use "bool" as a variable name or structure member, as it's
 	    a C++ keyword

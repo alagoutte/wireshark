@@ -343,10 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Loic Tortay             <tortay[AT]cc.in2p3.fr> {
-	Display AFS KAUTH information
-}
-
 Steve Housley           <Steve_Housley[AT]eur.3com.com> {
 	802.3ad LACP support
 }

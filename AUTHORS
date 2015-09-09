@@ -343,19 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Chris Waters            <chris[AT]waters.co.nz> {
-	Don't use "bool" as a variable name or structure member, as it's
-	    a C++ keyword
-	Check 802.11 FCS if present
-	Put the "wlan.fc.fromds" and "wlan.fc.tods" fields into the
-	    protocol tree
-	Export "find_dissector_table()" and add
-	    "dissector_handle_get_protocol_index()"
-	Support Tazmen Sniffer Protocol and DLT_TZSP captures from
-	    network-based libpcaps that use that protocol
-	MSN Messenger support
-}
-
 Solomon Peachy          <pizza[AT]shaftnet.org> {
 	WEP support and other mangling of the 802.11 dissector
 	Support for new "wlancap" 802.11 extra-information header

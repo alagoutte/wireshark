@@ -343,10 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Michael Stiller         <ms[AT]2scale.net> {
-	Java RMI protocol support
-}
-
 Antti Tuominen          <ajtuomin[AT]tml.hut.fi> {
 	AODV6 support
 }

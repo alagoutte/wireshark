@@ -343,11 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Liviu Daia              <Liviu.Daia[AT]imar.ro> {
-	Fix to eliminate crash when setting "column.format" preference
-	    from the command line
-}
-
 Richard Urwin           <richard[AT]soronlin.org.uk> {
 	Developer documentation fixes and updates
 	Support for a system-wide color filter file and color filter

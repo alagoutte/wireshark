@@ -343,10 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Martin Gignac           <lmcgign[AT]mobilitylab.net> {
-	Various MMSE fixes
-}
-
 John Wells              <wells[AT]ieee.org> {
 	MIP fix.
 }

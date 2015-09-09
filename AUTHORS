@@ -343,10 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Dirk Steinberg          <dws[AT]dirksteinberg.de> {
-	Fixes to BGP problems
-}
-
 Kari Heikkila           <kari.o.heikkila[AT]nokia.com> {
 	Fix for WTP PDUs not containing user data
 }

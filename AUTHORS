@@ -343,15 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Anand V. Narwani        <anand[AT]narwani.org> {
-	gtk/Makefile.am fix
-	DOCSIS support, including support for "Ethernet" captures where
-	    the raw frame is a DOCSIS frame rather than an Ethernet
-	    frame (some Cisco cable-modem head-end gear can send out a
-	    trace of all traffic on an Ethernet, but what it sends are
-	    the raw bytes of DOCSIS frames, not Ethernet frames)
-}
-
 Christopher K. St. John <cks[AT]distributopia.com> {
 	Apache JServ Protocol v1.3 support
 }

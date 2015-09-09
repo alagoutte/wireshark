@@ -343,10 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Yasuhiro Shirasaki      <yasuhiro[AT]gnome.gr.jp> {
-	DHCPv6 updates
-}
-
 Anand V. Narwani        <anand[AT]narwani.org> {
 	gtk/Makefile.am fix
 	DOCSIS support, including support for "Ethernet" captures where

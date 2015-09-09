@@ -343,10 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Steve Housley           <Steve_Housley[AT]eur.3com.com> {
-	802.3ad LACP support
-}
-
 Peter Hawkins           <peter[AT]hawkins.emu.id.au> {
 	Various bounds-check fixes
 }

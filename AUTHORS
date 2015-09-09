@@ -343,10 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Olivier Dreux           <Olivier.Dreux[AT]alcatel.fr> {
-	Add PPP support to GTP
-}
-
 Michael Stiller         <ms[AT]2scale.net> {
 	Java RMI protocol support
 }

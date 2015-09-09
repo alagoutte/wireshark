@@ -343,10 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Tsutomu Mieno           <iitom[AT]utouto.com> {
-	DHCPv6 updates
-}
-
 Yasuhiro Shirasaki      <yasuhiro[AT]gnome.gr.jp> {
 	DHCPv6 updates
 }

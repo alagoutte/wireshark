@@ -343,10 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-John Wells              <wells[AT]ieee.org> {
-	MIP fix.
-}
-
 Loic Tortay             <tortay[AT]cc.in2p3.fr> {
 	Display AFS KAUTH information
 }

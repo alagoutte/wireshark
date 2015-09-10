@@ -343,12 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Prabhakar Krishnan      <Prabhakar.Krishnan[AT]netapp.com> {
-	Add item to SMB protocol tree for time between request and
-	    response
-	Dissect NetApp ONTAP file handles
-}
-
 Jim McDonough           <jmcd[AT]us.ibm.com> {
 	Enhancements to SMB and the DCE RPC-based protocols used by SMB
 	NTLMSSP updates

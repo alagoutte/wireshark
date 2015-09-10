@@ -343,10 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Brian Bruns             <camber[AT]ais.org> {
-	TDS
-}
-
 Flavio Poletti          <flavio[AT]polettix.it> {
 	Fix bug in decoding of maximum uplink and downlink rate in GTP
 	    v1

@@ -343,10 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Sergei Shokhor          <sshokhor[AT]uroam.com> {
-	Bugfix for EPM
-}
-
 Hidetaka Ogawa          <ogawa[AT]bs2.qnes.nec.co.jp> {
 	Fix PPP FCS computation to include address and control field if
 	    present

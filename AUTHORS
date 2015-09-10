@@ -343,12 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Flavio Poletti          <flavio[AT]polettix.it> {
-	Fix bug in decoding of maximum uplink and downlink rate in GTP
-	    v1
-	Handle 3GPP QoS in RADIUS messages
-}
-
 Marcus Haebler          <haeblerm[AT]yahoo.com> {
 	Handle a sub-protocol field of 0x00 as PPP
 }

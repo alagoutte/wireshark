@@ -343,10 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Bill Studenmund         <wrstuden[AT]wasabisystems.com> {
-	Fix handling of SCSI mode sense
-}
-
 Brian Bruns             <camber[AT]ais.org> {
 	TDS
 }

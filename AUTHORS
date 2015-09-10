@@ -343,10 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Marcus Haebler          <haeblerm[AT]yahoo.com> {
-	Handle a sub-protocol field of 0x00 as PPP
-}
-
 Ulf Lamping             <ulf.lamping[AT]web.de> {
 	Put "bytes" after the byte counts for the frame sizes in the
 	    top-level item for the "Frame" protocol

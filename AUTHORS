@@ -343,10 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Jan Kratochvil          <short[AT]ucw.cz> {
-	Fix to MMSE handling of strings with specified character set
-}
-
 Alfred Koebler          <ak[AT]icon-sult.de> {
 	Support for interpreting Ethernet captures as CheckPoint
 	    FireWall-1 monitor files (those files look like snoop

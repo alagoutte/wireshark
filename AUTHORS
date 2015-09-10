@@ -343,12 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Alfred Koebler          <ak[AT]icon-sult.de> {
-	Support for interpreting Ethernet captures as CheckPoint
-	    FireWall-1 monitor files (those files look like snoop
-	    files for Ethernet)
-}
-
 Vassilii Khachaturov    <Vassilii.Khachaturov[AT]comverse.com> {
 	Put protocol blurbs into tables generated with the "-G fields"
 	    flag

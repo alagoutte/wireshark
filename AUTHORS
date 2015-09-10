@@ -343,11 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Vassilii Khachaturov    <Vassilii.Khachaturov[AT]comverse.com> {
-	Put protocol blurbs into tables generated with the "-G fields"
-	    flag
-}
-
 Bill Studenmund         <wrstuden[AT]wasabisystems.com> {
 	Fix handling of SCSI mode sense
 }

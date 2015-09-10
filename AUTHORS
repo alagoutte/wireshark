@@ -343,11 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Hidetaka Ogawa          <ogawa[AT]bs2.qnes.nec.co.jp> {
-	Fix PPP FCS computation to include address and control field if
-	    present
-}
-
 Jan Kratochvil          <short[AT]ucw.cz> {
 	Fix to MMSE handling of strings with specified character set
 }

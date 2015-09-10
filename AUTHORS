@@ -343,11 +343,6 @@ Greg Morris             <GMORRIS[AT]novell.com> {
 	SRVLOC-over-TCP support
 }
 
-Jim McDonough           <jmcd[AT]us.ibm.com> {
-	Enhancements to SMB and the DCE RPC-based protocols used by SMB
-	NTLMSSP updates
-}
-
 Sergei Shokhor          <sshokhor[AT]uroam.com> {
 	Bugfix for EPM
 }

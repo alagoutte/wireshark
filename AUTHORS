@@ -411,12 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Markus Friedl           <markus[AT]openbsd.org> {
-	Support for OpenBSD Encapsulating Device
-	Support for Ethernet-within-IP encapsulation
-	Remove duplicate SSH code
-}
-
 Todd Montgomery         <tmontgom[AT]tibco.com> {
 	Update PGM to RFC 3208
 }

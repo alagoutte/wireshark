@@ -411,10 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-emre                    <emre[AT]flash.net> {
-	"Filter out this stream" feature for Follow TCP Stream
-}
-
 Stephen Shelley         <steve.shelley[AT]attbi.com> {
 	Full payload dissection of compliance levels 0, 1 and 2 function
 	    codes for Modbus/TCP

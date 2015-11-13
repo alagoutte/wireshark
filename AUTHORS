@@ -402,10 +402,6 @@ Anders Broman           <anders.broman[AT]ericsson.com> {
 	Miscellaneous enhancements and fixes
 }
 
-Teemu Rinta-aho         <teemu.rinta-aho[AT]nomadiclab.com> {
-	Draft 20 MIPv6 support
-}
-
 Martijn Schipper        <mschipper[AT]globespanvirata.com> {
 	Fix for tag for 802.11g ERP Information field
 	Support for reading AiroPeek files in V9 capture file format

@@ -359,10 +359,6 @@ Ulf Lamping             <ulf.lamping[AT]web.de> {
 	Redesign of the print dialog
 }
 
-rmkml                   <rmkml[AT]wanadoo.fr> {
-	Support for capturing from a pipe in Tethereal
-}
-
 Anders Broman           <anders.broman[AT]ericsson.com> {
 	Additional SCTP payload protocol identifiers
 	Assorted ISUP enhancements

@@ -359,11 +359,6 @@ Ulf Lamping             <ulf.lamping[AT]web.de> {
 	Redesign of the print dialog
 }
 
-Jason House             <jhouse[AT]mitre.org> {
-	Win32 compilation fixes
-	TAP support for TCP protocol
-}
-
 Peter Fales             <psfales[AT]lucent.com> {
 	ARCNET support
 }

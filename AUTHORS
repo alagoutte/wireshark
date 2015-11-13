@@ -411,10 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Can Erkin Acar          <canacar[AT]eee.metu.edu.tr> {
-	Support for new DLT_PFLOG format
-}
-
 Martin Warnes           <martin.warnes[AT]ntlworld.com> {
 	Support for VMS UCX$TRACE output in wiretap
 }

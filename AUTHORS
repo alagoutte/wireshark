@@ -411,10 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Todd Montgomery         <tmontgom[AT]tibco.com> {
-	Update PGM to RFC 3208
-}
-
 emre                    <emre[AT]flash.net> {
 	"Filter out this stream" feature for Follow TCP Stream
 }

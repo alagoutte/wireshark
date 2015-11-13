@@ -411,10 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Martin Warnes           <martin.warnes[AT]ntlworld.com> {
-	Support for VMS UCX$TRACE output in wiretap
-}
-
 J Bruce Fields          <bfields[AT]fieldses.org> {
 	Some work on packet_rpc.c to support RPCSEC_GSS
 }

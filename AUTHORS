@@ -411,10 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Duncan Laurie           <duncan[AT]sun.com> {
-	IPMI-over-LAN support (IPMI, RMCP, partial ASF)
-}
-
 Tony Schene             <schene[AT]pcisys.net> {
 	Initial stub Kerberos kadmin support
 	Kerberos-over-TCP support

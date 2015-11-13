@@ -359,10 +359,6 @@ Ulf Lamping             <ulf.lamping[AT]web.de> {
 	Redesign of the print dialog
 }
 
-Fritz Budiyanto         <fritzb88[AT]yahoo.com> {
-	Assorted GTP fixes
-}
-
 Jean-Baptiste Marchand  <Jean-Baptiste.Marchand[AT]hsc.fr> {
 	Make it possible to filter on UUIDs
 	Fix typo in README.developer

@@ -359,11 +359,6 @@ Ulf Lamping             <ulf.lamping[AT]web.de> {
 	Redesign of the print dialog
 }
 
-Luke Howard             <lukeh[AT]au.padl.com> {
-	NETLOGON bugfix for LogonGetDomainInfo
-	Various NETLOGON fixes
-}
-
 PC Drew                 <drewpc[AT]ibsncentral.com> {
 	Dissector for the FIX protocol
 }

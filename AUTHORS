@@ -359,14 +359,6 @@ Ulf Lamping             <ulf.lamping[AT]web.de> {
 	Redesign of the print dialog
 }
 
-Andreas Trauer          <andreas.trauer[AT]siemens.com> {
-	GTP enhancements
-	Add subtrees for each link in a Router-LSA in an OSPF LS Update
-	    packet
-	Dissect the L2TP AVPs Initial Received LCP CONFREQ, Last
-	    Received LCP CONFREQ, Last Sent LCP CONFREQ
-}
-
 Ronald Henderson        <Ronald.Henderson[AT]CognicaseUSA.com> {
 	In LDAP dissector, handle Sequence Of header being split across
 	    TCP segments

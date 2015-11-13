@@ -359,10 +359,6 @@ Ulf Lamping             <ulf.lamping[AT]web.de> {
 	Redesign of the print dialog
 }
 
-Clive A. Stubbings      <eth[AT]vjet.demon.co.uk> {
-	802.1s Multiple Spanning Tree Protocol
-}
-
 Steve Langasek          <vorlon[AT]netexpress.net> {
 	Support for MS SQL 7 authentication in TDS
 }

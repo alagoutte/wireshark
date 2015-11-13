@@ -359,10 +359,6 @@ Ulf Lamping             <ulf.lamping[AT]web.de> {
 	Redesign of the print dialog
 }
 
-Lutz Jaenicke           <Lutz.Jaenicke[AT]aet.TU-Cottbus.DE> {
-	Fix an "htonl()" to use "g_htonl()"
-}
-
 Senthil Kumar Nagappan  <sknagappan[AT]yahoo.com> {
 	Small SCSI dissector fix
 	Small OSPF dissector enhancement

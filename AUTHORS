@@ -359,10 +359,6 @@ Ulf Lamping             <ulf.lamping[AT]web.de> {
 	Redesign of the print dialog
 }
 
-PC Drew                 <drewpc[AT]ibsncentral.com> {
-	Dissector for the FIX protocol
-}
-
 Renzo Tomas             <renzo.toma[AT]xs4all.nl> {
 	Skinny bugfix for configStat and serverRes
 }

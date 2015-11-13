@@ -359,10 +359,6 @@ Ulf Lamping             <ulf.lamping[AT]web.de> {
 	Redesign of the print dialog
 }
 
-James Harris            <jharris[AT]fourhorsemen.org> {
-	RADIUS user password decryption
-}
-
 rmkml                   <rmkml[AT]wanadoo.fr> {
 	Support for capturing from a pipe in Tethereal
 }

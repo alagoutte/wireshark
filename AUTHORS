@@ -411,14 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Erwin Rol               <erwin[AT]erwinrol.com> {
-	ArtNET support
-	RTNET support
-	ACN support
-	ENTTEC and RDM support
-	Monotone support
-}
-
 Duncan Laurie           <duncan[AT]sun.com> {
 	IPMI-over-LAN support (IPMI, RMCP, partial ASF)
 }

@@ -359,23 +359,6 @@ Ulf Lamping             <ulf.lamping[AT]web.de> {
 	Redesign of the print dialog
 }
 
-Jean-Baptiste Marchand  <Jean-Baptiste.Marchand[AT]hsc.fr> {
-	Make it possible to filter on UUIDs
-	Fix typo in README.developer
-	Added an MSRPC (DCERPC) atsvc dissector
-	Added descriptions of permissions for SAM_SERVER and SAM_USER
-	    objects in SAMR
-	Fix for NETLOGON/DsrGetSiteName and other NETLOGON functions
-	Initial DRSUAPI (Active Directory directory replication) support
-	Changed or added procedure names for a number of DCE RPC
-	    interfaces
-	EncryptedFileSystem (EFS) support.
-	MS Eventlog support
-	WKSSVC enhancements
-	File Replication Services (frsrpc and frsapi) support
-	Stub dissectors for rras and pnp MSRPC interfaces
-}
-
 Andreas Trauer          <andreas.trauer[AT]siemens.com> {
 	GTP enhancements
 	Add subtrees for each link in a Router-LSA in an OSPF LS Update

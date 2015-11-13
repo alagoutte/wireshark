@@ -411,12 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Miha Jemec              <m.jemec[AT]iskratel.si> {
-	Support to follow a RTP stream and save it as a file.
-	Support for G.711 codec
-	Original RTP analysis tap
-}
-
 Markus Friedl           <markus[AT]openbsd.org> {
 	Support for OpenBSD Encapsulating Device
 	Support for Ethernet-within-IP encapsulation

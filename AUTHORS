@@ -359,11 +359,6 @@ Ulf Lamping             <ulf.lamping[AT]web.de> {
 	Redesign of the print dialog
 }
 
-Martin Regner           <martin.regner[AT]chello.se> {
-	RPC bug fix
-	PIM bug fixes
-}
-
 Jason Greene            <jason[AT]inetgurus.net> {
 	Fix for LDAPv3 modrdn requests
 }

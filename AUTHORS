@@ -359,11 +359,6 @@ Ulf Lamping             <ulf.lamping[AT]web.de> {
 	Redesign of the print dialog
 }
 
-Senthil Kumar Nagappan  <sknagappan[AT]yahoo.com> {
-	Small SCSI dissector fix
-	Small OSPF dissector enhancement
-}
-
 Jason House             <jhouse[AT]mitre.org> {
 	Win32 compilation fixes
 	TAP support for TCP protocol

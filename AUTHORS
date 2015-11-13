@@ -411,10 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Garth Bushell           <gbushell[AT]elipsan.com> {
-	iSNS support
-}
-
 Mark C. Brown           <mbrown[AT]hp.com> {
 	Improvements to code that reads HP-UX nettl files
 	Cisco Port Aggregation Protocol support

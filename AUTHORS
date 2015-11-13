@@ -402,10 +402,6 @@ Anders Broman           <anders.broman[AT]ericsson.com> {
 	Miscellaneous enhancements and fixes
 }
 
-Pasi Kovanen            <Pasi.Kovanen[AT]tahoenetworks.fi> {
-	Display flow label IE in GTP v0 in hex
-}
-
 Teemu Rinta-aho         <teemu.rinta-aho[AT]nomadiclab.com> {
 	Draft 20 MIPv6 support
 }

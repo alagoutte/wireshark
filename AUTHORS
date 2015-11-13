@@ -359,10 +359,6 @@ Ulf Lamping             <ulf.lamping[AT]web.de> {
 	Redesign of the print dialog
 }
 
-Marco Molteni           <mmolteni[AT]cisco.com> {
-	Fix a comment to reflect reality
-}
-
 James Harris            <jharris[AT]fourhorsemen.org> {
 	RADIUS user password decryption
 }

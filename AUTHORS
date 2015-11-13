@@ -411,12 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Mark C. Brown           <mbrown[AT]hp.com> {
-	Improvements to code that reads HP-UX nettl files
-	Cisco Port Aggregation Protocol support
-	Nettl dissector
-}
-
 Can Erkin Acar          <canacar[AT]eee.metu.edu.tr> {
 	Support for new DLT_PFLOG format
 }

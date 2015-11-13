@@ -402,11 +402,6 @@ Anders Broman           <anders.broman[AT]ericsson.com> {
 	Miscellaneous enhancements and fixes
 }
 
-Christian Falckenberg   <christian.falckenberg[AT]nortelnetworks.com> {
-	Initial MEGACO support
-	GPRS SNDCP support
-}
-
 Huagang Xie             <xie[AT]lids.org> {
 	MySQL support
 	SSH support

@@ -411,12 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Tony Schene             <schene[AT]pcisys.net> {
-	Initial stub Kerberos kadmin support
-	Kerberos-over-TCP support
-	AUTH_GSSAPI support
-}
-
 Matthijs Melchior       <mmelchior[AT]xs4all.nl> {
 	TCP support in text2pcap
 	Support for automatically generating all declarations and

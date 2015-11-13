@@ -359,10 +359,6 @@ Ulf Lamping             <ulf.lamping[AT]web.de> {
 	Redesign of the print dialog
 }
 
-Jason Greene            <jason[AT]inetgurus.net> {
-	Fix for LDAPv3 modrdn requests
-}
-
 Marco Molteni           <mmolteni[AT]cisco.com> {
 	Fix a comment to reflect reality
 }

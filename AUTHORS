@@ -411,15 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Tony Lindstrom          <tony.lindstrom[AT]ericsson.com> {
-	Updates of DHCPV6 dissector to draft-ietf-dhc-dhcpv6-28,
-	    draft-ietf-dhc-dhcpv6-opt-prefix-delegation-04, and
-	    draft-ietf-dhc-dhcpv6-opt-dnsconfig-03, and addition of NIS
-	    and time configuration option drafts
-	    draft-ietf-dhc-dhcpv6-opt-nisconfig-02 and
-	    draft-ietf-dhc-dhcpv6-opt-timeconfig-02
-}
-
 Niklas Ogren            <niklas.ogren[AT]71.se> {
 	H.263 support for RTP
 }

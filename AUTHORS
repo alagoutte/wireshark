@@ -411,10 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Jeff Rizzo              <riz[AT]boogers.sf.ca.us> {
-	sFlow support
-}
-
 Christoph Wiest         <ch.wiest[AT]tesionmail.de> {
 	Redo MEGACO dissector to more fully parse text-format messages
 }

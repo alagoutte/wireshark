@@ -411,10 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Xuan Zhang              <xz[AT]aemail4u.com> {
-	eDonkey support
-}
-
 Tony Lindstrom          <tony.lindstrom[AT]ericsson.com> {
 	Updates of DHCPV6 dissector to draft-ietf-dhc-dhcpv6-28,
 	    draft-ietf-dhc-dhcpv6-opt-prefix-delegation-04, and

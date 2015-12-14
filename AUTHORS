@@ -411,10 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-tz                      <tz1[AT]mac.com> {
-	Decode the base-64 string for HTTP Basic authorization
-}
-
 Jeff Liu                <jqliu[AT]broadcom.com> {
 	WPA and WPA IE support
 }

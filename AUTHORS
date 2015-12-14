@@ -411,11 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Jesper Peterson         <jesper[AT]endace.com> {
-	Cisco HDLC FCS support
-	Support for reading Endace ERF files
-}
-
 Giles Scott             <gscott[AT]arubanetworks.com> {
 	Nortel/SynOptics Network Management Protocol support
 	Alteon/Nortel Transparent Proxy Control Protocol support

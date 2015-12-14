@@ -411,10 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Niklas Ogren            <niklas.ogren[AT]71.se> {
-	H.263 support for RTP
-}
-
 Jesper Peterson         <jesper[AT]endace.com> {
 	Cisco HDLC FCS support
 	Support for reading Endace ERF files

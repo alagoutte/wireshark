@@ -411,12 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Niels Koot              <Niels.Koot[AT]logicacmg.com> {
-	Support for subdissectors in SUA
-	Assorted SUA fixes
-	DBS Etherwatch file reader enhancements
-}
-
 Lionel Ains             <lains[AT]gmx.net> {
 	"-d" flag for decode-as support in Tethereal
 }

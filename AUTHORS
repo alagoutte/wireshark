@@ -415,10 +415,6 @@ Xuan Zhang              <xz[AT]aemail4u.com> {
 	eDonkey support
 }
 
-Shiang-Ming Huang       <smhuang[AT]pcs.csie.nctu.edu.tw> {
-	STUN (RFC 3489) support
-}
-
 Tony Lindstrom          <tony.lindstrom[AT]ericsson.com> {
 	Updates of DHCPV6 dissector to draft-ietf-dhc-dhcpv6-28,
 	    draft-ietf-dhc-dhcpv6-opt-prefix-delegation-04, and

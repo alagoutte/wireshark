@@ -411,10 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Jeff Liu                <jqliu[AT]broadcom.com> {
-	WPA and WPA IE support
-}
-
 Niels Koot              <Niels.Koot[AT]logicacmg.com> {
 	Support for subdissectors in SUA
 	Assorted SUA fixes

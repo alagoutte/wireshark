@@ -411,10 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Christoph Wiest         <ch.wiest[AT]tesionmail.de> {
-	Redo MEGACO dissector to more fully parse text-format messages
-}
-
 Xuan Zhang              <xz[AT]aemail4u.com> {
 	eDonkey support
 }

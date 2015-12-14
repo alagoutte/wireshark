@@ -415,12 +415,6 @@ Xuan Zhang              <xz[AT]aemail4u.com> {
 	eDonkey support
 }
 
-Oleg Terletsky          <oleg.terletsky[AT]comverse.com> {
-	LWRES support
-	AgentX support
-	SCTP chunk statistic
-}
-
 Michael Lum             <mlum[AT]telostech.com> {
 	Support for saving list of disabled protocols
 	ANSI TCAP support

@@ -415,32 +415,6 @@ Xuan Zhang              <xz[AT]aemail4u.com> {
 	eDonkey support
 }
 
-Michael Lum             <mlum[AT]telostech.com> {
-	Support for saving list of disabled protocols
-	ANSI TCAP support
-	ANSI MAP support
-	ALCAP (Q.2630.1) support
-	IS-637-A (SMS) support
-	IS-683-A (OTA) support
-	IS-801 (PLD) support
-	BSSAP (GSM 08.06)/BSAP (IOS 4.0.1) support
-	IOS 4.0.1 support
-	GSM BSSMAP (GSM 08.08) support
-	GSM DTAP (3GPP TS 24.008) support
-	GSM SMS (3GPP TS 24.011) support
-	GSM SS (3GPP TS 24.080) support
-	GSM SMS TPDU (3GPP TS 23.040) support
-	GSM Supplementary Services support
-	GSM MAP fixes and parameter separation
-	Taps for ANSI A-interface statistics
-	Support for SS7 point codes as address types
-	Taps for GSM A-interface statistics
-	Tap for ANSI MAP message statistics
-	Tap for ISUP message statistics
-	Tap for GSM MAP message statistics
-	Tap for MTP3 MSU statistics and summary
-}
-
 Shiang-Ming Huang       <smhuang[AT]pcs.csie.nctu.edu.tw> {
 	STUN (RFC 3489) support
 }

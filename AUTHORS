@@ -411,10 +411,6 @@ Lars Roland             <Lars.Roland[AT]gmx.net> {
 	Support for building libethereal.dll with MSVC
 }
 
-Joakim Wiberg           <jow[AT]hms-networks.com> {
-	Support for Common Industrial Protocol over IP
-}
-
 Jeff Rizzo              <riz[AT]boogers.sf.ca.us> {
 	sFlow support
 }

@@ -632,6 +632,10 @@ else() # ! MSVC
 		# Works only with GCC 7
 		#
 		-Wduplicated-branches
+		# Works only with Clang but generates a lot of warnings
+		# (about generator dissector)
+		#
+		-Wused-but-marked-unused
 		#
 		# No longer supported by El Capitan clang on C++
 		# XXX - is this one of those where CMake's check

@@ -30,7 +30,9 @@ os: Windows Server 2012
 install:
   # install Win-Flex-Bison
   - cmd: cinst winflexbison -y
-
+  # install cygwin
+  - cmd: cinst cygwin -y
+  
 #---------------------------------#
 #       build configuration       #
 #---------------------------------#

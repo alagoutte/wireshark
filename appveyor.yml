@@ -35,7 +35,7 @@ install:
   # install cyg-get
   - cmd: cinst cyg-get -y
   # install asciidoc patch docbook-xml45 bash from cygwin
-  - cmd: cyg-get asciidoc patch docbook-xml45 bash
+  - cmd: cyg-get -y asciidoc patch docbook-xml45 bash
 
 #---------------------------------#
 #       build configuration       #
@@ -43,9 +43,7 @@ install:
 
 # scripts to run before build
 before_build:
-  - cmd: echo $PATH
-  - cmd: set PATH = "C:\Cyginw64\bin;$PATH"
-  - cmd: echo $PATH
+  - cmd: $env:path = "C:\Cyginw64\bin;$env:path".
   - cmd: set WIRESHARK_BASE_DIR=C:\projects\wireshark
   - cmd: cmake .
 

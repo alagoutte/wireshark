@@ -43,6 +43,9 @@ install:
 
 # scripts to run before build
 before_build:
+  - cmd: echo PATH
+  - cmd: set PATH = "C:\Cyginw64\bin;PATH"
+  - cmd: echo PATH
   - cmd: set WIRESHARK_BASE_DIR=C:\projects\wireshark
   - cmd: cmake .
 

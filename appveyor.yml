@@ -43,7 +43,7 @@ install:
 
 # scripts to run before build
 before_build:
-  - cmd: $env:path = "C:\Cygwin64\bin;$env:path"
+  - cmd: $env:path = "C:\cygwin64\bin;$env:path"
   - cmd: set WIRESHARK_BASE_DIR=C:\projects\wireshark
   - cmd: cmake .
 

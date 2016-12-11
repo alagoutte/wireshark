@@ -34,8 +34,8 @@ install:
   - cmd: cinst cygwin -y
   # install cyg-get
   - cmd: cinst cyg-get -y
-  # install asciidoc patch docbook-xml45 bash from cygwin
-  - cmd: cyg-get -y asciidoc patch docbook-xml45 bash
+  # install asciidoc patch docbook-xml45 from cygwin
+  - cmd: cyg-get -y asciidoc patch docbook-xml45
 
 #---------------------------------#
 #       build configuration       #

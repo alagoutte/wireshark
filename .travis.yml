@@ -39,7 +39,8 @@ before_install:
   - $CC --version
   #flex
   - if [ "$TRAVIS_OS_NAME" == "linux" ]; then sudo apt-get -qq install autopoint gettext; fi
-  - if [ "$TRAVIS_OS_NAME" == "osx" ]; then homebrew install autopoint; fi
+  - if [ "$TRAVIS_OS_NAME" == "osx" ]; then brew install flex; fi
+  - flex -V
   - wget https://github.com/westes/flex/releases/download/v2.6.2/flex-2.6.2.tar.gz
   - tar zvxf flex-2.6.2.tar.gz
   - cd flex-2.6.2

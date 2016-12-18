@@ -39,7 +39,7 @@ before_install:
   - $CC --version
   #flex
   - if [ "$TRAVIS_OS_NAME" == "linux" ]; then sudo apt-get -qq install autopoint gettext; fi
-  - if [ "$TRAVIS_OS_NAME" == "osx" ]; then brew install flex; fi
+  - if [ "$TRAVIS_OS_NAME" == "osx" ]; then brew install flex gettext; fi
   - gettext -V
   - wget http://ftp.gnu.org/pub/gnu/gettext/gettext-0.19.8.1.tar.gz
   - tar zvxf gettext-0.19.8.1.tar.gz

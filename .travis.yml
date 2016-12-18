@@ -42,7 +42,7 @@ before_install:
   - if [ "$TRAVIS_OS_NAME" == "osx" ]; then brew install flex; fi
   - gettext -V
   - wget http://ftp.gnu.org/pub/gnu/gettext/gettext-0.19.8.1.tar.gz
-  - tar zvxf gettext-0.19.8.1
+  - tar zvxf gettext-0.19.8.1.tar.gz
   - cd gettext-0.19.8.1
   - /configure && make && make install 
   - cd ..

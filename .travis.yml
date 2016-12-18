@@ -44,14 +44,14 @@ before_install:
   - wget http://ftp.gnu.org/pub/gnu/gettext/gettext-0.19.8.1.tar.gz
   - tar zxf gettext-0.19.8.1.tar.gz
   - cd gettext-0.19.8.1
-  - ./configure && make && make install 
+  - ./configure --disable-debug && make && sudo make install 
   - cd ..
   - gettext -V
   - flex -V
   - wget https://github.com/westes/flex/releases/download/v2.6.2/flex-2.6.2.tar.gz
   - tar zxf flex-2.6.2.tar.gz
   - cd flex-2.6.2
-  - ./autogen.sh && ./configure && make && make install
+  - ./autogen.sh && ./configure && make && sudo make install
   - cd ..
   - flex -V
 before_script:

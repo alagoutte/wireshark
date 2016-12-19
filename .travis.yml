@@ -44,7 +44,9 @@ before_install:
   - wget http://ftp.gnu.org/pub/gnu/gettext/gettext-0.19.8.1.tar.gz
   - tar zxf gettext-0.19.8.1.tar.gz
   - cd gettext-0.19.8.1
-  - ./configure --disable-debug && make && sudo make install > 1
+  - ./configure --disable-debug >> 1
+  - make >> 2
+  - sudo make install >> 3
   - cd ..
   - if [ "$TRAVIS_OS_NAME" == "linux" ]; then gettext -V; fi
   - flex -V

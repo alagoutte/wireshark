@@ -58,7 +58,9 @@ before_install:
   - ./configure
   - make 
   - sudo make install
+  - flex -V
   - cd ..
+  - /usr/local/bin/flex -V
   - flex -V
 before_script:
   if [ ${BUILD_CMAKE} == "yes" ]; then mkdir build && cd build && cmake ${CMAKE_OPTS} ..; else ./autogen.sh && ./configure ${AUTOTOOLS_OPTS} ; fi

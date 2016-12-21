@@ -58,7 +58,7 @@ before_install:
   - ./configure
   - make 
   - sudo make install
-  - flex -V
+#  - flex -V
   - cd ..
   - ls /usr/local/bin/
   - /usr/local/bin/flex -V

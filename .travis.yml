@@ -54,7 +54,10 @@ before_install:
   - wget https://github.com/westes/flex/releases/download/v2.6.2/flex-2.6.2.tar.gz
   - tar zxf flex-2.6.2.tar.gz
   - cd flex-2.6.2
-  - ./autogen.sh && ./configure && make && sudo make install
+  - ./autogen.sh 
+  - ./configure
+  - make 
+  - sudo make install
   - cd ..
   - flex -V
 before_script:

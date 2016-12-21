@@ -2,17 +2,17 @@ language: cpp
 sudo: required
 dist: trusty
 os:
-  - osx
+#  - osx
   - linux
 compiler:
-  - clang
+#  - clang
   - gcc
 env:
  - BUILD_CMAKE=yes
- - BUILD_CMAKE=yes CMAKE_OPTS="-DBUILD_wireshark_gtk=ON"
- - BUILD_CMAKE=yes CMAKE_OPTS="-DENABLE_PCAP=OFF"
- - BUILD_CMAKE=yes CMAKE_OPTS="-DENABLE_EXTCAP=OFF"
- - BUILD_CMAKE=no AUTOTOOLS_OPTS="--with-gtk=3"
+# - BUILD_CMAKE=yes CMAKE_OPTS="-DBUILD_wireshark_gtk=ON"
+# - BUILD_CMAKE=yes CMAKE_OPTS="-DENABLE_PCAP=OFF"
+# - BUILD_CMAKE=yes CMAKE_OPTS="-DENABLE_EXTCAP=OFF"
+# - BUILD_CMAKE=no AUTOTOOLS_OPTS="--with-gtk=3"
 matrix:
   exclude:
   # Exclude gcc build (Need some work) with osx

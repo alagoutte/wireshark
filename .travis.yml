@@ -60,6 +60,7 @@ before_install:
   - sudo make install
   - flex -V
   - cd ..
+  - ls /usr/local/bin/
   - /usr/local/bin/flex -V
   - flex -V
 before_script:

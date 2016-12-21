@@ -50,6 +50,7 @@ before_install:
   - cd ..
   - if [ "$TRAVIS_OS_NAME" == "linux" ]; then gettext -V; fi
   - flex -V
+  - if [ "$TRAVIS_OS_NAME" == "linux" ]; then sudo apt-get -qq remove flex; fi
   - wget https://github.com/westes/flex/releases/download/v2.6.2/flex-2.6.2.tar.gz
   - tar zxf flex-2.6.2.tar.gz
   - cd flex-2.6.2

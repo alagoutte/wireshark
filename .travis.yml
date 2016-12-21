@@ -38,7 +38,7 @@ before_install:
   - if [ "$TRAVIS_OS_NAME" == "linux" ]; then sudo ./tools/debian-setup.sh --install-optional -qq; fi
   - $CC --version
   #flex
-  - if [ "$TRAVIS_OS_NAME" == "linux" ]; then sudo apt-get -qq install autopoint gettext; fi
+  - if [ "$TRAVIS_OS_NAME" == "linux" ]; then sudo apt-get -qq install autopoint gettext help2man; fi
   - if [ "$TRAVIS_OS_NAME" == "osx" ]; then brew install flex gettext; fi
   - if [ "$TRAVIS_OS_NAME" == "linux" ]; then gettext -V; fi
   - wget http://ftp.gnu.org/pub/gnu/gettext/gettext-0.19.8.1.tar.gz

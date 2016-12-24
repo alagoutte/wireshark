@@ -55,7 +55,7 @@ before_install:
   - tar zxf flex-2.6.2.tar.gz
   - cd flex-2.6.2
   - ./autogen.sh 
-  - ./configure --prefix=/usr/bin
+  - ./configure --prefix=/usr
   - make 
   - sudo make install
 #  - flex -V

@@ -8,7 +8,7 @@ compiler:
 #  - clang
   - gcc
 env:
- - BUILD_CMAKE=yes
+ - BUILD_CMAKE=no
 # - BUILD_CMAKE=yes CMAKE_OPTS="-DBUILD_wireshark_gtk=ON"
 # - BUILD_CMAKE=yes CMAKE_OPTS="-DENABLE_PCAP=OFF"
 # - BUILD_CMAKE=yes CMAKE_OPTS="-DENABLE_EXTCAP=OFF"
@@ -66,4 +66,4 @@ before_install:
 before_script:
   if [ ${BUILD_CMAKE} == "yes" ]; then mkdir build && cd build && cmake ${CMAKE_OPTS} ..; else ./autogen.sh && ./configure ${AUTOTOOLS_OPTS} ; fi
 script:
-  - make -j2
+  - make

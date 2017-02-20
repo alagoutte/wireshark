@@ -15,6 +15,13 @@ before_install:
   - flex -V
   # macos
   - if [ "$TRAVIS_OS_NAME" == "osx" ]; then ./tools/macos-setup-brew.sh; fi
+  - git clone https://github.com/westes/flex
+  - cd flex
+  - ./autogen.sh 
+  - ./configure
+  - make 
+  - sudo make install
+  - ./flex -V
   - flex -V
 before_script:
   mkdir build && cd build && cmake -DENABLE_EXTRA_COMPILER_WARNINGS=1 .. 

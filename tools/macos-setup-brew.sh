@@ -24,18 +24,26 @@
 #Update to last brew release
 brew update
 
+brew upgrade
+
 #install some libs needed by Wireshark
 brew install c-ares glib libgcrypt gnutls lua cmake nghttp2 snappy lz4 libxml2
 
 #install Qt5
 brew install qt5
 
+echo "You need to add Qt on PATH via
+
+PATH=/usr/local/opt/qt/bin:\$PATH
+or (to be permanent)
+echo 'export PATH=/usr/local/opt/qt/bin:\$PATH' >> ~/.bash_profile"
+
 #Fix qt5 lib link
 brew link --force qt5
-VERSION=`brew info qt5 | grep /usr/local/Cellar | tail -n 1 | cut -d '/' -f6 | cut -d ' ' -f1`
+#VERSION=`brew info qt5 | grep /usr/local/Cellar | tail -n 1 | cut -d '/' -f6 | cut -d ' ' -f1`
 #sudo rm /usr/local/mkspecs /usr/local/plugins
-sudo ln -s /usr/local/Cellar/qt5/$VERSION/mkspecs /usr/local/
-sudo ln -s /usr/local/Cellar/qt5/$VERSION/plugins /usr/local/
+#sudo ln -s /usr/local/Cellar/qt/$VERSION/mkspecs /usr/local/
+#sudo ln -s /usr/local/Cellar/qt/$VERSION/plugins /usr/local/
 
 #
 #  Editor modelines

@@ -27,7 +27,7 @@ brew update
 brew upgrade
 
 #install some libs needed by Wireshark
-brew install c-ares glib libgcrypt gnutls lua cmake nghttp2 snappy lz4 libxml2 asciidoc
+brew install c-ares glib libgcrypt gnutls lua cmake snappy lz4 libxml2 asciidoc
 
 #install Qt5
 brew install qt5

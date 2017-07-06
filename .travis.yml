@@ -44,4 +44,4 @@ before_install:
 before_script:
   if [ ${BUILD_CMAKE} == "yes" ]; then mkdir build && cd build && cmake ${CMAKE_OPTS} ..; else ./autogen.sh && ./configure ${AUTOTOOLS_OPTS} ; fi
 script:
-  - make
+  - make -j$(nproc)

@@ -29,8 +29,13 @@ class DragDropToolBar : public QToolBar
 {
     Q_OBJECT
 public:
+#if QT_VERSION > QT_VERSION_CHECK(5, 0, 0)
     explicit DragDropToolBar(const QString &title, QWidget *parent = Q_NULLPTR);
     explicit DragDropToolBar(QWidget *parent = Q_NULLPTR);
+#else
+    explicit DragDropToolBar(const QString &title, QWidget *parent = 0);
+    explicit DragDropToolBar(QWidget *parent = 0);
+#endif
     ~DragDropToolBar();
 
 Q_SIGNALS:

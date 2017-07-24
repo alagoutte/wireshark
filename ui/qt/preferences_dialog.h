@@ -30,6 +30,8 @@
 
 #include "wireshark_application.h"
 
+#include <ui/qt/variant_pointer.h>
+
 #include "geometry_state_dialog.h"
 #include <QTreeWidgetItem>
 

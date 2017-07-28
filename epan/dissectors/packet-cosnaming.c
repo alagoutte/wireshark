@@ -39,6 +39,8 @@
 #pragma GCC diagnostic ignored "-Wunused-variable"
 #endif
 
+DIAG_OFF(used-but-marked-unused)
+
 void proto_register_giop_cosnaming(void);
 void proto_reg_handoff_giop_cosnaming(void);
 

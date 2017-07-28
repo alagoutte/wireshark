@@ -27,6 +27,8 @@
 
 #include "packet-gmr1_rr.h"
 
+DIAG_OFF(used-but-marked-unused)
+
 void proto_register_gmr1_rr(void);
 
 /* GMR-1 RR and CCCH proto */

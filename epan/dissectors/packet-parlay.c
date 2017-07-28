@@ -44,6 +44,8 @@ DIAG_OFF(unused-variable)
 DIAG_OFF(unused-const-variable)
 #endif
 
+DIAG_OFF(used-but-marked-unused)
+
 void proto_register_giop_parlay(void);
 void proto_reg_handoff_giop_parlay(void);
 

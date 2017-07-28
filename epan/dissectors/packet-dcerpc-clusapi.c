@@ -17,6 +17,8 @@
 #include "packet-dcerpc.h"
 #include "packet-dcerpc-nt.h"
 #include "packet-windows-common.h"
+
+DIAG_OFF(used-but-marked-unused)
 #include "packet-dcerpc-clusapi.h"
 void proto_register_dcerpc_clusapi(void);
 void proto_reg_handoff_dcerpc_clusapi(void);

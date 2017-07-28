@@ -1171,6 +1171,9 @@ sub Parse($$$$$)
 	$self->{res}->{headers} .= "#include \"packet-dcerpc-nt.h\"\n";
 	$self->{res}->{headers} .= "#include \"packet-windows-common.h\"\n";
 
+       $self->{res}->{headers} .= "\n";
+       $self->{res}->{headers} .= "DIAG_OFF(used-but-marked-unused)\n";
+
 	my $h_basename = basename($h_filename);
 
 	$self->{res}->{headers} .= "#include \"$h_basename\"\n";

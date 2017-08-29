@@ -22,7 +22,7 @@
 #define __PACKET_GMR1_COMMON_H__
 
 #include "packet-gsm_a_common.h"
-
+DIAG_OFF(used-but-marked-unused)
 
 /* Protocol descriptor (see [1] 11.2 & [4] 10.2) */
 typedef enum {

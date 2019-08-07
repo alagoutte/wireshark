@@ -1,5 +1,7 @@
 language: minimal
 dist: xenial
+cache:
+  apt: true
 matrix:
   include:
     - name: OSX (clang-9) with PCAP

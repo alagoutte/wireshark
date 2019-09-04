@@ -10,13 +10,13 @@ matrix:
       os: osx
       compiler: clang
       env: PCAP=OFF
-    - name: OSX (xcode10.1 clang-10) with PCAP
+    - name: OSX (xcode11.0 clang-11) with PCAP
       os: osx
-      osx_image: xcode10.1
+      osx_image: xcode11.1
       env: PCAP=ON
-    - name: OSX (xcode10.1 clang-10) without PCAP
+    - name: OSX (xcode11.0 clang-11) without PCAP
       os: osx
-      osx_image: xcode10.1
+      osx_image: xcode11.0
       env: PCAP=OFF
     - name: Linux (gcc-8) with PCAP
       os: linux
